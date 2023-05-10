@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+    background-image: url("메인페이지_배경이미지-배경제거_long.ver.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
+  }
+  
+  header {
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1em;
+  }
+
+  ul {
+    margin: 10px 0;
+    padding: 120px 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px 0;
+    width: 120%;
+  }
+  
+  li {
+    flex: 0 0 calc(25% - 10px);
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    line-height: 35px;
+  }
+
+  li.pink {
+    background-image: url('핑크포스트잇.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  li.yellow {
+    background-image: url('포스트잇노랑.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  li.skyblue {
+    background-image: url('포스트잇하늘.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  li.green {
+    background-image: url('포스트잇그린.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  li p {
+    margin: 5px 0;
+  }
+  #map {
+    margin-top: 50px;
+  }

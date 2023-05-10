@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+header {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+nav {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1.5em;
+  padding: 150px;
+}
+
+ul {
+  margin: 50px;
+  padding: 150px;
+  list-style: none;
+}
+
+li {
+  display: block;
+  margin-bottom: 30px;
+  padding: auto;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+#pharmacy:hover {
+  background-image: url("핑크.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
+}
+
+#GYM:hover {
+  background-image: url("소라색.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
+}
+
+#homeTraning:hover {
+  background-image: url("옐로우.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
+}
+
+body {
+  background-image: url("메인페이지_배경이미지-배경제거ver.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'GangwonEduSaeeum_OTFMediumA';
+}
