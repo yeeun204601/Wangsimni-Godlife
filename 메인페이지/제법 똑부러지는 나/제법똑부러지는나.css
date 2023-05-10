@@ -1,34 +1,42 @@
 @font-face {
-    font-family: 'GangwonEduSaeeum_OTFMediumA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;}
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
-            .box{
-                position: relative;
-                width:90%;
-            }
-            .box::before{
-                content:"";
-                display: block;
-                padding-top: 50%;
-            }
-            .content{
-                position: absolute;
-                top: 100px;
-                right:0;
-                bottom:0;
-                left:180px;
-                font-family: GangwonEduSaeeum_OTFMediumA;
-                letter-spacing: 1px;
-                line-height: 150%;
-                font-size: 40px;
-            }
-            body{
-                background-image:url('메인페이지_배경이미지.png');
-                background-size:cover;
-                height: 100vh;
-                width: 100vw;
-                background-repeat: no-repeat;
-            }
-            
+.box {
+  position: relative;
+  width: 90%;
+}
+.box::before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+.content {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 180px;
+  font-family: GangwonEduSaeeum_OTFMediumA;
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-size: 40px;
+}
+body {
+  background-image: url("메인페이지_배경이미지.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+p#jsdate {
+  font-family: GangwonEduSaeeum_OTFMediumA;
+  font-size: 40px;
+  position: absolute;
+  top: 40px;
+  right: 200px;
+}
