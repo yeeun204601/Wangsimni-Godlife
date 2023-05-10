@@ -1,44 +1,156 @@
-nav {
-  display: flex;
-  padding: 10px;
-  border-bottom: 2px solid rgb(95, 133, 112);
-  text-align: center;
-  background-color: darkolivegreen;
+/* 폰트 */
+@font-face {
+  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
+/* 배경 이미지 */
 body {
+  /*background-image: url('메인페이지_스티커/메인페이지_다이어리 스티커10-remove.png'), 
+  url('메인페이지_스티커/메인페이지_다이어리 스티커11-remove.png'),url('메인페이지_스티커/메인페이지_다이어리 스티커12-remove.png'),
+  url('메인페이지_스티커/메인페이지_다이어리 스티커13-remove.png'),url('메인페이지_스티커/메인페이지_다이어리 스티커14-remove.png'),
+  url('메인페이지_스티커/메인페이지_다이어리 스티커15-remove.png'),url('메인페이지_스티커/메인페이지_다이어리 스티커16-remove.png'),
+  url('메인페이지_스티커/메인페이지_다이어리 스티커17-remove.png'),url('메인페이지_스티커/메인페이지_다이어리 스티커18-remove.png'),
+  url('메인페이지_스티커/메인페이지_다이어리 스티커19-remove.png');
+  background-position: 100px 50px, 500px 450px, 50px 50px;
+  background-repeat: no-repeat;*/
+  background: url('메인페이지_노트배경이미지/메인페이지_배경이미지-배경제거ver.png') no-repeat;
+  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  padding: 0;
   margin: 0;
 }
-
-div h4 {
-  color: beige;
+/* header */
+header .logo {
+  display:block;
+  padding:0;
+  margin: 0 auto;
+}
+nav {
+  display:flex;
+}
+/* 메뉴 & 사이드바 */
+#menu {
+  cursor: pointer;
+}
+.sidebar {
+  font-size:30px;
+  width:300px;
+  height:100%;
+  background-color:white;
+  position:fixed;
+  top:0;
+  left:-100%;
+}
+.sidebar > #sidebar {
+  margin:0;
+}
+#sidebar a {
+  display: flex;
+  align-items:center;
+  text-decoration:none;
+  padding: 15px 10px;
+}
+#sidebar a:link, a:visited {
+  color: black;
+}
+#sidebar a:hover {
+  border-radius:8px;
+  background-color:olivedrab;
 }
 
-ul {
-  list-style: none;
+/* h1 */
+h1 {
+  font-size: 50px;
+}
+h1#nav_title {
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:0px;
+}
+h1#goal {
+  margin:0px;
+  position:absolute;
+  top: 130px; left: 230px;
 }
 
-ul li {
-  display: inline;
-  padding: 0 30px;
-  letter-spacing: 5px;
+/* 섹션 */
+section {
+  line-height:150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0;
+}
+section .eat, .smart, .strong, .play {
+  display:none;
 }
 
-ul li a {
-  text-decoration: none;
-  color: white;
+/* 대표 목차 페이지 불릿 이미지 변경*/
+section ul > li {
+  font-size: 50px;
+  letter-spacing: 1px;
+  list-style-position:inside;
+  list-style-image:url('메인페이지_스티커/메인페이지_불릿.png');
+  padding:0;
+  margin:0;
+}
+.nav > li {
+  margin: 100px auto;
+}
+.eat > li, .smart > li, .strong > li, .play > li {
+  letter-spacing: 1px;
+  margin: 30px auto;
 }
 
-ul li a:hover {
-  text-decoration: underline;
-  color: rgb(182, 195, 168);
+/* 세부 페이지 불릿 이미지 변경*/
+.eat > #food_map {
+  list-style-image: url('메인페이지_스티커/메인페이지_불릿2.png');
+}
+.eat > #conv_map {
+  list-style-image: url('메인페이지_스티커/메인페이지_불릿3.png');
+}
+.smart > li {
+  list-style-image: url('메인페이지_스티커/메인페이지_불릿4.png');
+}
+.strong > li {
+  list-style-image: url('메인페이지_스티커/메인페이지_불릿6.png');
+}
+.play > li {
+  list-style-image: url('메인페이지_스티커/메인페이지_불릿5.png');
 }
 
-section,
+section ul a:link,:visited {
+  color:black;
+  text-decoration:none;
+}
+/* 목차 페이지 호버 효과 */
+section ul #eat:hover {
+  background:url('메인페이지_별_표시_물감하이라이트/004-remove.png') no-repeat center top;
+  background-size: 230px 50px;
+}
+section ul #smart:hover {
+  background:url('메인페이지_별_표시_물감하이라이트/005-remove.png') no-repeat center top;
+  background-size: 270px 50px;
+}
+section ul #strong:hover {
+  background:url('메인페이지_별_표시_물감하이라이트/008-remove.png') no-repeat center top;
+  background-size: 230px 50px;
+}
+section ul #play:hover {
+  background:url('메인페이지_별_표시_물감하이라이트/006-remove.png') no-repeat center top;
+  background-size: 230px 50px;
+}
+section ul #eat:hover>.eat, #smart:hover>.smart, #strong:hover>.strong, #play:hover > .play {
+  display:block;
+}
+section .eat a:hover, .smart a:hover, .strong a:hover, .play a:hover {
+  text-decoration:underline;
+}
+
 footer {
-  margin: 10px;
-}
-
-footer {
-  border-top: 2px solid rgb(95, 133, 112);
+  font-size: 50px;
+  margin:0px;
+  position:absolute;
+  bottom:0px; left: 230px;
 }
