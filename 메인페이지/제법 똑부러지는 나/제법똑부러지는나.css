@@ -1,7 +1,6 @@
 @font-face {
   font-family: "GangwonEduSaeeum_OTFMediumA";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff")
-    format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -10,11 +9,13 @@
   position: relative;
   width: 90%;
 }
+
 .box::before {
   content: "";
   display: block;
   padding-top: 50%;
 }
+
 .content {
   position: absolute;
   top: 100px;
@@ -26,17 +27,56 @@
   line-height: 150%;
   font-size: 40px;
 }
+
 body {
-  background-image: url("메인페이지_배경이미지.png");
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
+  background-image: url("메인페이지_배경이미지-배경제거ver.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
+
 p#jsdate {
   font-family: GangwonEduSaeeum_OTFMediumA;
   font-size: 40px;
   position: absolute;
   top: 40px;
   right: 200px;
+}
+
+#purple:hover {
+  background-image: url('보라색하이라이트.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 170px;
+}
+
+#red:hover {
+  background-image: url('빨간색하이라이트.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px;
+}
+
+#blue:hover {
+  background-image: url('파란색하이라이트.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px;
+}
+
+h1 {
+  font-family: GangwonEduSaeeum_OTFMediumA;
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-size: 50px;
+  position: absolute;
+  top: 30px;
+  left: 175px;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: -60px;
 }
