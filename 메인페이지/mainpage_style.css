@@ -11,7 +11,7 @@ body {
   background: url('이미지/메인페이지_노트배경이미지/메인페이지_배경이미지.png');
   background-repeat:repeat-y;
   background-size: 100%;
-  height: 215vh;
+  height:220vh;
   font-family: 'GangwonEduSaeeum_OTFMediumA';
 }
 
@@ -83,16 +83,16 @@ nav {
 
 /* h1 */
 h1 {
-  font-size: 50px;
+  font-size:40px;
 }
 h1#nav_title {
   position:absolute;
-  top: 15%; left:47%;
+  top:17%; left:47%;
 }
 h1#goal {
   margin:0px;
   position:absolute;
-  top:90px; left:180px;
+  top:70px; left:150px;
 }
 
 /* 날짜 */
@@ -101,11 +101,11 @@ h1#goal {
 }
 #date1 {
   position:absolute;
-  top:6%; right:15%;
+  top:3%; right:12%;
 }
 #date2 {
   position:absolute;
-  bottom:-37%; right:15%;
+  bottom:-42%; right:12%;
 }
 
 /* 종강 d-day */
@@ -114,11 +114,11 @@ h1#goal {
 }
 #d-day1 {
   position:absolute;
-  top:12%; right:16%;
+  top:10%; right:13%;
 }
 #d-day2 {
   position:absolute;
-  bottom:-43%; right:16%;
+  bottom:-49%; right:13%;
 }
 
 /* 섹션 */
@@ -133,7 +133,7 @@ section .eat, .smart, .strong, .play {
 
 /* 대표 목차 페이지 불릿 이미지 변경*/
 .navbar > li {
-  font-size: 80px;
+  font-size: 65px;
   letter-spacing: 1px;
   list-style-position:inside;
   list-style-image:url('이미지/메인페이지_스티커/메인페이지_불릿.png');
@@ -142,12 +142,12 @@ section .eat, .smart, .strong, .play {
 .eat > li, .strong > li, .play > li {
   font-size: 50px;
   letter-spacing: 1px;
-  margin: 50px;
+  margin: 30px;
 }
 .smart > li {
   font-size: 50px;
   letter-spacing: 1px;
-  margin: 50px auto; 
+  margin: 30px auto; 
 }
 
 /* 목차 리스트 위치 고정 */
@@ -162,7 +162,7 @@ section .eat, .smart, .strong, .play {
   top:62%;
 }
 #strong {
-  top:132%;
+  top:135%;
 }
 #play {
   top:175%;
@@ -234,12 +234,12 @@ section .eat, .smart, .strong, .play {
 /* 한양대역 */
 #stic_10 {
   position:absolute;
-  top:20%; left: -80%;
+  top:30%; left: -50%;
 }
 /* 사자상 */
 #stic_11 {
   position:absolute;
-  top:10%; right: -80%;
+  top:25%; right: -60%;
 }
 /* 공강시간 */
 #stic_12 {
@@ -263,7 +263,7 @@ section .eat, .smart, .strong, .play {
 /* 업 화살표 */
 #up_bt {
   position:absolute;
-  bottom:-110%; right:100px;
+  bottom:-115%; right:80px;
 }
 
 section ul a:link,:visited {
@@ -273,19 +273,19 @@ section ul a:link,:visited {
 /* 목차 페이지 호버 효과 */
 section ul #eat:hover {
   background:url('이미지/메인페이지_별_표시_물감하이라이트/004-remove.png') no-repeat center top;
-  background-size: 390px 70px;
+  background-size: 320px 60px;
 }
 section ul #smart:hover {
   background:url('이미지/메인페이지_별_표시_물감하이라이트/005-remove.png') no-repeat center top;
-  background-size: 450px 70px;
+  background-size: 370px 60px;
 }
 section ul #strong:hover {
   background:url('이미지/메인페이지_별_표시_물감하이라이트/008-remove.png') no-repeat center top;
-  background-size: 390px 70px;
+  background-size: 320px 60px;
 }
 section ul #play:hover {
   background:url('이미지/메인페이지_별_표시_물감하이라이트/006-remove.png') no-repeat center top;
-  background-size: 390px 70px;
+  background-size: 320px 60px;
 }
 section ul #eat:hover>.eat, #smart:hover>.smart, #strong:hover>.strong, #play:hover > .play {
   display:block;
@@ -296,8 +296,8 @@ section .eat a:hover, .smart a:hover, .strong a:hover, .play a:hover {
 
 /* footer */
 footer {
-  font-size: 50px;
+  font-size:40px;
   margin:130px;
   position:absolute;
-  bottom:-130%; left:50px;
+  bottom:-140%; left:20px;
 }
