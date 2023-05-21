@@ -11,15 +11,18 @@ body {
   background: url('이미지/메인페이지_노트배경이미지/메인페이지_배경이미지.png');
   background-repeat:repeat-y;
   background-size: 100%;
-  height: 190vh;
+  height: 215vh;
   font-family: 'GangwonEduSaeeum_OTFMediumA';
 }
 
 /* header */
 header .logo {
+  position:absolute;
   display:block;
+  top:-5px;
+  left:50%;
   padding:0;
-  margin: 0 0 0 45vw;
+  margin: 0;
 }
 nav {
   display:flex;
@@ -89,7 +92,7 @@ h1#nav_title {
 h1#goal {
   margin:0px;
   position:absolute;
-  top: 110px; left: 200px;
+  top:90px; left:180px;
 }
 
 /* 날짜 */
@@ -98,11 +101,11 @@ h1#goal {
 }
 #date1 {
   position:absolute;
-  top:6%; right:17%;
+  top:6%; right:15%;
 }
 #date2 {
   position:absolute;
-  bottom:-19%; right:17%;
+  bottom:-37%; right:15%;
 }
 
 /* 종강 d-day */
@@ -111,11 +114,11 @@ h1#goal {
 }
 #d-day1 {
   position:absolute;
-  top:11%; right:18%;
+  top:12%; right:16%;
 }
 #d-day2 {
   position:absolute;
-  bottom:-25%; right:18%;
+  bottom:-43%; right:16%;
 }
 
 /* 섹션 */
@@ -150,19 +153,19 @@ section .eat, .smart, .strong, .play {
 /* 목차 리스트 위치 고정 */
 #eat, #smart, #strong, #play {
   position:absolute;
-  left:40%;
+  left:38%;
 }
 #eat {
-  top:30%;
+  top:32%;
 }
 #smart {
-  top:60%;
+  top:62%;
 }
 #strong {
-  top:120%;
+  top:132%;
 }
 #play {
-  top:155%;
+  top:175%;
 }
 
 /* 세부 페이지 불릿 이미지 변경*/
@@ -196,7 +199,7 @@ section .eat, .smart, .strong, .play {
 /* 스마일 */
 #stic_3 {
   position:absolute;
-  top:18%; left:40%;
+  top:19%; left:42%;
 }
 /* 배고파 */
 #stic_4 {
@@ -231,12 +234,12 @@ section .eat, .smart, .strong, .play {
 /* 한양대역 */
 #stic_10 {
   position:absolute;
-  top:20%; left: -100%;
+  top:20%; left: -80%;
 }
 /* 사자상 */
 #stic_11 {
   position:absolute;
-  top:10%; right: -100%;
+  top:10%; right: -80%;
 }
 /* 공강시간 */
 #stic_12 {
@@ -255,12 +258,12 @@ section .eat, .smart, .strong, .play {
 /* 다운 화살표 */
 #down_bt {
   position:absolute;
-  bottom:11%; right:100px;
+  bottom:0%; right:100px;
 }
 /* 업 화살표 */
 #up_bt {
   position:absolute;
-  bottom:-86%; right:100px;
+  bottom:-110%; right:100px;
 }
 
 section ul a:link,:visited {
@@ -296,5 +299,5 @@ footer {
   font-size: 50px;
   margin:130px;
   position:absolute;
-  bottom:-100%; left:50px;
+  bottom:-130%; left:50px;
 }
