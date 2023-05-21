@@ -1,68 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>왕십리 자취러의 제법 갓생 살기</title>
-        <link type = "text/css" rel="stylesheet" href="제법잘노는나.css">
-        <p id="jsdate"></p>
-        <script src="제법잘노는나.js"></script>
-        <style>
-            ul li a{
-                text-decoration:none;
-                color:black;
-            }
-            ul li a:hover{
-                background-color: lightcoral;
-                padding: 10px 5px 10px 0px;
-                color:black;
-            }
-            .content2{
-                position: absolute;
-                top: 0px;
-                right:0;
-                bottom:0;
-                left:47%;
-                font-family: GangwonEduSaeeum_OTFMediumA;
-                letter-spacing: 1px;
-                line-height: 150%;
-                font-size: 40px;
-            }
-            h1 {
-                font-family: GangwonEduSaeeum_OTFMediumA;
-                letter-spacing: 1px;
-                line-height: 150%;
-                font-size: 50px;
-                position: absolute;
-                top: 45px;
-                left: 175px;
-            }
-            h3{
-                font-style:italic;
-                margin-bottom:-50px;
-            }
-        </style>
-    </head>
-    <body>
-        <h1> 제법 잘 노는 나 </h1>     
-        <div class="box">
-            <div class="content">
-                <h3> CAFE </h3>
-                  <ul> 
-                    <li> <a href="카페_소재.html">카페 소재</a></li>
-                    <li> <a href="카페_호말커피.html">호말커피</a></li>
-                    <li> <a href="카페_맨스필드.html">맨스필드 카페&펍</a></li>
-                    <li> <a href="카페_어질인.html">어질인</a> </li>
-                    <li> <a href="카페_브릭스.html">브릭스 커피</a></li>
-                  </ul>
+
+<head>
+    <title>왕십리 자취러의 제법 갓생 살기</title>
+    <link type="text/css" rel="stylesheet" href="제법잘노는나.css">
+    <p id="jsdate"></p>
+    <script src="제법잘노는나.js"></script>
+    <style>
+        ul#cafe {
+            list-style: none;
+            text-align: center;
+            margin-left: -800px;
+            margin-top: -50px;
+            padding: 10px;
+        }
+        ul#play {
+            list-style: none;
+            text-align: center;
+            margin-left: -400px;
+            margin-top: -50px;
+            padding: 10px;
+        }
+        li {
+            display: block;
+            padding: 0px;
+        }
+
+        a {
+            display: block;
+            color: #000000;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .content2 {
+            position: absolute;
+            top: 0px;
+            right: 0;
+            bottom: 0;
+            left: 50%;
+            font-family: GangwonEduSaeeum_OTFMediumA;
+            letter-spacing: 1px;
+            line-height: 150%;
+            font-size: 40px;
+        }
+        img#index{
+            position: absolute;
+            left: 79%;
+            bottom: 40%;
+        }
+        p#tag{
+            position: absolute;
+            left: 83%;
+            bottom: 64%;
+            font-size: 2em;
+            color:darkgrey;
+            font-style:italic;
+        }
+        h1 {
+            background-image: url('빨간색하이라이트.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 50px;
+            opacity: 0.9;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <h1> 제법 잘 노는 나 </h1>
+    <div class="box">
+        <div class="content">
+            <h3> &nbsp &nbsp &nbsp &nbsp CAFE </h3>
+            <ul id="cafe">
+                <li id="red"> <a href="카페_소재.html">카페 소재</a></li>
+                <li id="orange"> <a href="카페_호말커피.html">호말커피</a></li>
+                <li id="yellow"> <a href="카페_맨스필드.html">맨스필드 카페&펍</a></li>
+                <li id="green"> <a href="카페_어질인.html">어질인</a> </li>
+                <li id="lightblue"> <a href="카페_브릭스.html">브릭스 커피</a></li>
+            </ul>
             <div class="content2">
                 <h3> PLAY </h3>
-                  <ul> 
-                    <li> <a href="플레이_윙보드게임.html">윙보드게임카페 왕십리점</a> </li>
-                    <li> <a href="플레이_놀숲.html"> 놀숲 한양대점</a> </li>
-                    <li> <a href="플레이_CGV.html">CGV 왕십리 </a></li>
-                    <li> <a href="플레이_도깨비.html">도깨비 PC방</a> </li>
-                  </ul>
-                </div>
+                <ul id="play">
+                    <li id="blue"> <a href="플레이_윙보드게임.html">윙보드게임카페 왕십리점</a> </li>
+                    <li id="purple"> <a href="플레이_놀숲.html"> 놀숲 한양대점</a> </li>
+                    <li id="brown"> <a href="플레이_CGV.html">CGV 왕십리 </a></li>
+                    <li id="gray"> <a href="플레이_도깨비.html">도깨비 PC방</a> </li>
+                </ul>
             </div>
         </div>
-    </body>
+    </div>
+    <ads> 
+        <img id="index" src="빨강_long.png" width="300" height="300" onclick="location.href='제법잘노는나.html'"> 
+        <p id="tag"> 제법 잘 노는 나 </p>
+    </ads>
+</body>
+
 </html>

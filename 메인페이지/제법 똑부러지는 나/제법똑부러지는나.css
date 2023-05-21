@@ -72,11 +72,33 @@ h1 {
   line-height: 150%;
   font-size: 50px;
   position: absolute;
-  top: 30px;
+  top: 35px;
   left: 175px;
 }
 
 h3 {
   font-style: italic;
-  margin-top: -60px;
+  margin-top: -40px;
+}
+
+img#index{
+  position: absolute;
+  left: 79%;
+  bottom: 40%;
+  cursor: pointer;
+}
+p#tag{
+  position: absolute;
+  left: 83%;
+  bottom: 67%;
+  font-size: 1.8em;
+  color:darkgrey;
+  font-style:italic;
+}
+
+img#index_s{
+  cursor: pointer;
+  position: absolute;
+  left: 79.7%;
+  bottom: 40%;
 }
