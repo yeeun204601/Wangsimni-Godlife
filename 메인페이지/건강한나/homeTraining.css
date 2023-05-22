@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  h2 {
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  nav {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 2em;
+    padding: 30px;
+    width: 110%;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  
+  a {
+    display: inline-block;
+    width: 300px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 80px 0; /* Adjusted padding */
+    margin: 10px; /* Adjusted margin */
+  }
+  
+  #pushups a {
+    background-image: url("pushup1.png");
+  }
+  
+  #pushups a:hover {
+    background-image: url("pushup2.png");
+  }
+  
+  #pushups a:hover::after {
+    content: "팔굽혀펴기";
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    border-radius: 5px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  #squats a {
+    background-image: url("squat1.png");
+    background-size: 15em;
+  }
+  
+  #squats a:hover {
+    background-image: url("squat2.png");
+    background-size: 15em;
+  }
+  
+  #squats a:hover::after {
+    content: "스쿼트";
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    border-radius: 5px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  #planks a {
+    background-image: url("plank1.png");
+    margin: 0 30px;
+    padding: 40px;
+  }
+  
+  #planks a:hover {
+    background-image: url("plank2.png");
+  }
+  
+  #planks a:hover::after {
+    content: "플랭크";
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    border-radius: 5px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  body {
+    background-image: url("메인페이지_배경이미지-배경제거ver.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
+  }
+  

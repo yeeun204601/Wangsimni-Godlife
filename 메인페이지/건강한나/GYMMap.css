@@ -1,0 +1,22 @@
+img {
+    max-width: 80%;
+    height: 80%;
+    top: 20%;
+    left: 10%;
+    position: absolute;
+}
+
+header {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+body {
+    background-image: url("메인페이지_배경이미지-배경제거_long.ver.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'GangwonEduSaeeum_OTFMediumA';
+  }
