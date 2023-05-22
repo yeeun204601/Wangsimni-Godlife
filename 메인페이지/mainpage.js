@@ -25,12 +25,3 @@ let comments = [
 let todays_num = Math.floor((Math.random() * comments.length));
 
 document.getElementById("comment").innerHTML = "오늘의 한 마디: " + comments[todays_num];
-
-/* 사이드바 구현*/
-let sidebar = document.getElementsByClassName("sidebar");
-function sidebarOpen() {
-    sidebar.style.left = "0";
-}
-function sidebarOut() {
-    sidebar.style.left = "-400px";
-}
