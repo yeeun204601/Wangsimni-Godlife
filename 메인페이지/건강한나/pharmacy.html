@@ -8,11 +8,11 @@
   <body>
     <section id="pharmacy">
       <header>
-        <h2>왕십리 주변 약국 정보</h2>
-        <a href="pharmacyMap.html">
-          <span id="Mapmark"></span>
-        </a>
+        <div class="logo">
+          <a href="../mainpage.html"><img id="logo" src="004-remove.png" width="80" height="80"></a>
+      </div>
       </header>
+      <h2>왕십리 주변 약국 정보</h2>
       <nav>
         <ul id="drag-container">
           <li class="pink">대풍약국<br> 서울 성동구 사근동길 6 <br> 02-2296-8899</li>
@@ -29,6 +29,14 @@
         </ul>
       </nav>
     </section>
+    <ads> 
+      <img id="index1" src="퍼플_long.png" width="200" height="200" onclick="location.href='pharmacyMap.html'"> 
+      <span id="tag1"> 지도 보기 </span>
+      <img id="index2" src="빨강_long.png" width="200" height="200" onclick="location.href='건강한나.html'"> 
+      <span id="tag2"> 제법 건강한 나 </span>
+  </ads>
+  <p id="currentDate"></p>
+    <script src="getDate.js"></script>
     <script src="drag_postit.js"></script>
   </body>
 </html>

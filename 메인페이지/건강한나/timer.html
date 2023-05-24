@@ -20,7 +20,7 @@
 
     h1 {
       position: absolute;
-      top: 12%;
+      top: 11%;
       left: 15%;
       transform: translate(-50%, -50%);
       text-align: center;
@@ -36,8 +36,8 @@
 
     #startButton {
       position: absolute;
-      top: 70%;
-      left: 45%;
+      top: 85%;
+      left: 40%;
       transform: translate(-50%, -50%);
       font-size: 24px;
       padding: 10px 20px;
@@ -45,8 +45,8 @@
 
     #pauseButton {
       position: absolute;
-      top: 70%;
-      left: 55%;
+      top: 85%;
+      left: 50%;
       transform: translate(-50%, -50%);
       font-size: 24px;
       padding: 10px 20px;
@@ -78,6 +78,13 @@
       left: 65%;
       position: absolute;
     }
+
+    #currentDate {
+  position: absolute;
+  top: 7%;
+  left: 73%;
+  font-size: 36px;
+  }
   </style>
 </head>
 <body>
@@ -97,6 +104,8 @@
     <img src="plank1.png" alt="Image 5" id="image5">
     <img src="plank2.png" alt="Image 6" id="image6">
   </div>
+  <p id="currentDate"></p>
+  <script src="getDate.js"></script>
   <script src="homeTraining_timer.js"></script>
   <script src="image_animation.js"></script>
 </body>

@@ -5,109 +5,119 @@
   font-style: normal;
 }
 
-header {
-  position: absolute;
-  top: 15%;
-  left: 15%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-nav {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  line-height: 2em;
-  padding: 50px;
-  width: 150%;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px; 
-}
-
-a {
-  display: inline-block;
-  width: 300px;
-  height: 180px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  padding: 20px 10px;
-  margin: 10px; /* Adjusted margin */
-}
-
-#pharmacy a {
-  background-image: url("약국버튼_수정.png");
-}
-
-#pharmacy a:hover {
-  background-image: url("약국버튼_hover_수정.png");
-}
-
-#pharmacy a:hover::after {
-  content: "왕십리 주변 약국과 기본 상비약 정보";
-  position: absolute; 
-  top: 100%; 
-  left: 30%; 
-  border-radius: 5px; 
-  font-size: 48px; 
-  font-weight: bold; 
-  color: #000000; 
-}
-
-#GYM a {
-  background-image: url("GYM버튼_수정.png");
-}
-
-#GYM a:hover {
-  background-image: url("GYM버튼_hover_수정.png");
-}
-
-#GYM a:hover::after {
-  content: "왕십리 주변 체육관 정보";
-  position: absolute; 
-  top: 100%; 
-  left: 45%; 
-  border-radius: 5px; 
-  font-size: 48px; 
-  font-weight: bold; 
-  color: #000000; 
-}
-
-#homeTraining a {
-  background-image: url("홈트레이닝버튼_수정.png");
-  padding: 20px 35px;
-  margin: 10px 20px; /* Adjusted margin */
-}
-
-#homeTraining a:hover {
-  background-image: url("홈트레이닝버튼_hover_수정.png");
-}
-
-#homeTraining a:hover::after {
-  content: "간단한 홈트레이닝법";
-  position: absolute; 
-  top: 100%; 
-  left: 60%; 
-  border-radius: 5px; 
-  font-size: 48px; 
-  font-weight: bold; 
-  color: #000000; 
-}
-
 body {
   background-image: url("메인페이지_배경이미지-배경제거ver.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'GangwonEduSaeeum_OTFMediumA';
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin-left: -800px;
+  margin-top: -50px;
+}
+
+li {
+  display: block;
+  padding: 0px;
+}
+
+a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h1 {
+  background-image: url('민트색.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 50px;
+  opacity: 0.9;
+  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-size: 50px;
+  position: absolute;
+  top: 30px;
+  left: 175px;
+}
+
+.box {
+  position: relative;
+  width: 90%;
+}
+
+.box::before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+
+.content {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  bottom: 0;
+  left: 130px;
+  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-size: 60px;
+}
+
+#pharmacy:hover {
+  background-image: url('소라색.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 170px;
+}
+
+#GYM:hover {
+  background-image: url('핑크.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px;
+}
+
+#hometraining:hover {
+  background-image: url('옐로우.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px;
+}
+
+img#index {
+  position: absolute;
+  left: 85%;
+  top: 20%;
+  cursor: pointer;
+}
+
+p#tag {
+  position: absolute;
+  left: 88%;
+  top: 23%;
+  font-size: 1.4em;
+  color: darkgrey;
+  font-style: italic;
+}
+
+/* header */
+header .logo {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 50%;
+}
+
+#currentDate {
+  position: absolute;
+  top: 8%;
+  left: 75%;
+  font-size: 36px;
 }
