@@ -54,7 +54,7 @@ h2 {
   height: auto;
 
   position: relative;
-  bottom: 3px;
+  top: 10px;
   /*조금 밑으로 내려가도록*/
 }
 
@@ -66,6 +66,9 @@ h2 {
 #menu_st {
   width: 50px;
   height: auto;
+
+  position: relative;
+  top: 12px;
 }
 
 /* 내용 위치 */
