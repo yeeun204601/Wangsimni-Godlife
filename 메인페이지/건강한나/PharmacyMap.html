@@ -8,6 +8,86 @@
     <header>
         <h1>왕십리 약국 지도</h1>
     </header>
-    <img src="왕십리지도_1차.png" alt="왕십리지도">
+      <img id="marker1" src="마커.png" alt="대풍약국">
+      <img id="marker2" src="마커.png" alt="대학약국">
+      <img id="marker3" src="마커.png" alt="더밝은약국">
+      <img id="marker4" src="마커.png" alt="신성림약국">
+      <img id="marker5" src="마커.png" alt="비트플렉스약국">
+      <img id="marker6" src="마커.png" alt="설약국">
+      <img id="marker7" src="마커.png" alt="한양약국">
+      <img id="marker8" src="마커.png" alt="종로약국">
+      <img id="marker9" src="마커.png" alt="후문약국">
+      <img id="marker10" src="마커.png" alt="정문약국">
+      <img id="marker11" src="마커.png" alt="혜민약국">
+
+    <div class="scroll-container">
+        <div id="index">
+            왕십리 약국 목록
+        </div>
+        <div id="pharmacy1">
+            <a>대풍약국</a>
+        </div>
+
+        <div id="pharmacy2">
+            <a>대학약국</a>
+        </div>
+
+        <div id="pharmacy3">
+            <a>더밝은약국</a>
+        </div> 
+
+        <div id="pharmacy4">
+            <a>신성림약국</a>
+        </div>
+
+        <div id="pharmacy5">
+            <a>비트플렉스약국</a>
+        </div>
+
+        <div id="pharmacy6">
+            <a>설약국</a>
+        </div>
+        
+        <div id="pharmacy7">
+            <a>한양약국</a>
+        </div>
+        
+        <div id="pharmacy8">
+            <a>종로약국</a>
+        </div> 
+        
+        <div id="pharmacy9">
+            <a>후문약국</a>
+        </div> 
+        
+        <div id="pharmacy10">
+            <a>정문약국</a>
+        </div>
+        
+        <div id="pharmacy11">
+            <a>혜민약국</a>
+        </div>
+    </div>
+    <ads> 
+        <img id="index1" src="퍼플_long.png" width="200" height="200" onclick="location.href='pharmacy.html'"> 
+        <span id="tag1"> 목록 보기 </span>
+        <img id="index2" src="빨강_long.png" width="200" height="200" onclick="location.href='건강한나.html'"> 
+        <span id="tag2"> 제법 건강한 나 </span>
+    </ads>
+    <script>
+       for (var i = 1; i <= 11; i++) {
+  (function(index) {
+    var pharmacy = document.getElementById('pharmacy' + index);
+    var marker = document.getElementById('marker' + index);
+    pharmacy.addEventListener('click', function() {
+      if (marker.style.display === 'none') {
+        marker.style.display = 'block';
+      } else {
+        marker.style.display = 'none';
+      }
+    });
+  })(i);
+}
+    </script>
 </body>
 </html>

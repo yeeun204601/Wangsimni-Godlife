@@ -5,108 +5,137 @@
   font-style: normal;
 }
 
-
-
 body {
-    background-image: url("메인페이지_배경이미지-배경제거_long.ver.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'GangwonEduSaeeum_OTFMediumA';
-  }
-  
-  
-  h2 {
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 48px;
-    margin-bottom: 20px;
-  }
+  background-image: url("메인페이지_배경이미지-배경제거_long.ver.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'GangwonEduSaeeum_OTFMediumA';
+}
 
-  a {
-    position: absolute;
-    top: 6%;
-    left: 83%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
+h2 {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
 
-  
+header .logo {
+  position: absolute;
+  display: block;
+  top: 30px;
+  left: 50%;
+}
 
+a {
+  position: absolute;
+  top: 6%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 
-  
-  nav {
-    position: absolute;
-    top: 85%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    line-height: 1em;
-  }
+nav {
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1em;
+}
 
-  ul {
-    margin: 10px 0;
-    padding: 120px 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 10px 0;
-    width: 130%;
-  }
-  
-  li {
-    flex: 0 0 calc(25% - 10px);
-    text-align: center;
-    font-size: 24px;
-    white-space: nowrap;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0;
-    line-height: 30px;
-  }
+ul {
+  margin: 10px 0;
+  padding: 120px 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px 0;
+  width: 130%;
+}
 
-  li.pink {
-    background-image: url('포스트잇핑크_수정.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 280px;
-  }
-  
-  li.yellow {
-    background-image: url('포스트잇노랑_수정.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 280px;
-  }
-  
-  li.skyblue {
-    background-image: url('포스트잇하늘_수정.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 280px;
-  }
-  
-  li.green {
-    background-image: url('포스트잇그린_수정.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 280px;
-  }
-  
-  #Mapmark {
-    position: absolute;
-    top: 0%;
-    left: 80%;
-    display: inline-block;
-    width: 200px;
-    height: 100px;
-    background-image: url('Mapmark.png');
-    background-size: cover;
-  }
+li {
+  flex: 0 0 calc(25% - 3px);
+  text-align: center;
+  font-size: 24px;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0;
+  line-height: 20px;
+}
+
+li.pink {
+  background-image: url('포스트잇핑크_수정.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+}
+
+li.yellow {
+  background-image: url('포스트잇노랑_수정.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+}
+
+li.skyblue {
+  background-image: url('포스트잇하늘_수정.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+}
+
+li.green {
+  background-image: url('포스트잇그린_수정.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+  font-size: 22px;
+}
+
+img#index1 {
+  position: absolute;
+  top: 12%;
+  left: 86%;
+  cursor: pointer;
+}
+
+#tag1 {
+  position: absolute;
+  left: 89%;
+  top: 20%;
+  font-size: 1.4em;
+  color: darkgrey;
+  font-style: italic;
+}
+
+img#index2 {
+  position: absolute;
+  left: 86%;
+  top: 22%;
+  cursor: pointer;
+}
+
+#tag2 {
+  position: absolute;
+  left: 89%;
+  top: 29%;
+  font-size: 1.4em;
+  color: darkgrey;
+  font-style: italic;
+}
+
+#currentDate {
+  position: absolute;
+  top: 5.5%;
+  left: 73%;
+  font-size: 36px;
+}
