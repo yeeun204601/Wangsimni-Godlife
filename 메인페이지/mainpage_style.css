@@ -61,10 +61,6 @@ h1#goal {
   position:absolute;
   top:4%; right:12%;
 }
-#date2 {
-  position:absolute;
-  bottom:-48%; right:12%;
-}
 
 /* 종강 d-day */
 .d-day {
@@ -73,10 +69,6 @@ h1#goal {
 #d-day1 {
   position:absolute;
   top:11%; right:13%;
-}
-#d-day2 {
-  position:absolute;
-  bottom:-55%; right:13%;
 }
 
 /* 섹션 */

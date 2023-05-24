@@ -7,7 +7,6 @@ let day = (today.getDate());
 let dateString = year + '/' + month  + '/' + day; 
 
 document.getElementById("date1").innerHTML = dateString;
-document.getElementById("date2").innerHTML = dateString;
 
 /* 종강 d-day */
 let dDay = new Date("2023/06/21");
@@ -15,7 +14,6 @@ let diff_days = Math.floor((dDay - today) / (1000 * 3600 * 24));
 let dDayString = "종강 D-" + diff_days;
 
 document.getElementById("d-day1").innerHTML = dDayString;
-document.getElementById("d-day2").innerHTML = dDayString;
 
 /* 오늘의 한 마디 */
 let comments = [
