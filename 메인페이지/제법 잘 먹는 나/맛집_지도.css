@@ -1,0 +1,399 @@
+@font-face {
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("이미지_잘먹는나/메인페이지_배경이미지-배경제거ver.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  margin-bottom: 50px;
+}
+
+header {
+  position: absolute;
+  top: 16%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  text-align: center;
+}
+
+img#map {
+  height: 105%;
+  width: auto;
+
+  position: absolute;
+  top: 11%;
+  left: 15%;
+}
+
+div#standard {
+  text-align: center;
+  height: 400px;
+  width: 650px;
+
+  position: absolute;
+  top: 20%;
+  right: 0%;
+
+  background-image: url("포스트잇/포스트잇3.png");
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*백그라운드 이미지가 잘리는 문제 -> div 자체의 크기 조절*/
+/*contain - 컨테이너의 짧은 길이 중심으로 맞춰짐. width를 아무리 늘려도 그대로
+cover는 컨테이너가 작으면 그 크기에 맞추기 때문에 다 잘려버림
+그래서 div 자체를 키우고 백그라운드 사이즈의 비율을 줄이는 방식
+*/
+
+h2#standard_text {
+  margin: 100px 100px 0 50px;
+  font-size: 1.5em;
+}
+
+ul#standard_elements {
+  font-size: 1.4em;
+  margin: 30px 100px 0 20px;
+  list-style: none;
+}
+
+#allrest {
+  color: green;
+  font-size: 2em;
+  position: absolute;
+  bottom: 0%;
+  right: 15%;
+}
+
+#allrest p {
+  margin-bottom: 0%;
+}
+
+#allrest #hungry {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  left: 80%;
+  bottom: 10%;
+}
+
+/*포인터 크기 및 위치 설정*/
+.poi {
+  width: 1.7%;
+  height: auto;
+}
+
+/*포인터 클릭 문구*/
+
+p#tryclick {
+  font-size: 1.5em;
+  color: rgb(207, 75, 136);
+  text-align: center;
+
+  position: absolute;
+  top: 30%;
+  left: 14%;
+}
+
+img#tryclick_img {
+  width: 50px;
+  height: auto;
+
+  position: absolute;
+  top: 47%;
+  left: 18%;
+}
+
+/*스마일떡볶이*/
+#poi1 {
+  position: absolute;
+  top: 21.5%;
+  left: 49.5%;
+}
+/*버거쑈*/
+#poi2 {
+  position: absolute;
+  top: 32.5%;
+  left: 47.5%;
+}
+/*악떡*/
+#poi3 {
+  position: absolute;
+  top: 35%;
+  left: 46.5%;
+}
+/*브라운돈가스*/
+#poi3 {
+  position: absolute;
+  top: 35%;
+  left: 46.5%;
+}
+/*4. 브라운돈가스 */
+#poi4 {
+  position: absolute;
+  top: 42.5%;
+  left: 30.8%;
+}
+/*5. 부대스토리 */
+#poi5 {
+  position: absolute;
+  top: 47%;
+  left: 30.5%;
+}
+/*6. 서래갈매기*/
+#poi6 {
+  position: absolute;
+  top: 58%;
+  left: 33%;
+}
+/*7. 일락 */
+#poi7 {
+  position: absolute;
+  top: 59%;
+  left: 39.2%;
+}
+/*8. 일번지 */
+#poi8 {
+  position: absolute;
+  top: 59.8%;
+  left: 41%;
+}
+/*9. 하쿠나마타타 */
+#poi9 {
+  position: absolute;
+  bottom: 7.8%;
+  left: 33.7%;
+}
+/*10. 끄트머리집 */
+#poi10 {
+  position: absolute;
+  bottom: 6.6%;
+  left: 35.6%;
+}
+/*11. 마쿠*/
+#poi11 {
+  position: absolute;
+  bottom: 4.5%;
+  left: 38%;
+}
+/*12. 철남 */
+#poi12 {
+  position: absolute;
+  bottom: 2%;
+  left: 39.1%;
+}
+/*13. 치폴레옹 */
+#poi13 {
+  position: absolute;
+  bottom: 1%;
+  left: 40.3%;
+}
+/*14. 히토리우동 */
+#poi14 {
+  position: absolute;
+  bottom: 3%;
+  left: 30.5%;
+}
+/*15. 이돈집 */
+#poi15 {
+  position: absolute;
+  bottom: 1%;
+  left: 35.2%;
+}
+/*16. 행돈 */
+#poi16 {
+  position: absolute;
+  bottom: -1.5%;
+  left: 39.4%;
+}
+
+/*포인터 hover 효과*/
+/*스크롤 팝업 이미지 만들기
+
+1. 이미지와 텍스트를 포함하는 div에 relative / 사이즈 설정
+2. 이미지 사이즈 설정
+3. 텍스트 absolue / 사이즈 설정
+*/
+
+/*
+.tot {
+  position: relative;
+}
+*/
+/*
+.int_img {
+  position: relative;
+  
+  background-image: url("식당편의점 간단소개/핑크.png");
+  background-size: 250px;
+  width: 300px;
+  height: 300px;
+  /*
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.int_img img {
+  width: 350px;
+}
+
+.int {
+  width: 190px;
+  height: 190px;
+  overflow: auto;
+
+  text-align: center;
+  font-size: 18px;
+  */ /*
+  display: flex;
+  flex-direction: column;
+
+  z-index: 1;
+
+  transform: translate(-50%, -50%);
+}
+*/
+
+/*찐최종
+1. 이미지와 텍스트를 감싸는 전체 div - 백그라운드이미지, 크기 설정
+2. 텍스트 div - transform으로 위치 맞춰주기, 크기 설정, 스크롤바*/
+.int_img {
+  background-image: url("식당편의점 간단소개/핑크.png");
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 200px;
+  height: 200px;
+}
+
+.int {
+  width: 150px;
+  height: 150px;
+
+  text-align: center;
+
+  transform: translate(20%, 15%);
+
+  overflow: auto;
+}
+.int h5 {
+  font-size: 1.3em;
+}
+
+/* 각 팝업 위치 설정 */
+#int_img1 {
+  position: absolute;
+  top: 15%;
+  left: 52%;
+}
+
+#int_img2 {
+  position: absolute;
+  top: 2%;
+  left: 33%;
+}
+
+#int_img3 {
+  position: absolute;
+  top: 8%;
+  left: 31%;
+}
+
+#int_img4 {
+  position: absolute;
+  top: 12%;
+  left: 15%;
+}
+
+#int_img5 {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+#int_img6 {
+  position: absolute;
+  top: 30%;
+  left: 18%;
+}
+
+#int_img7 {
+  position: absolute;
+  top: 27%;
+  left: 35%;
+}
+
+#int_img8 {
+  position: absolute;
+  top: 30%;
+  left: 42%;
+}
+
+#int_img9 {
+  position: absolute;
+  top: 58%;
+  left: 19%;
+}
+
+#int_img10 {
+  position: absolute;
+  top: 56%;
+  left: 24%;
+}
+
+#int_img11 {
+  position: absolute;
+  top: 58%;
+  left: 28%;
+}
+
+#int_img12 {
+  position: absolute;
+  top: 60%;
+  left: 34%;
+}
+
+#int_img13 {
+  position: absolute;
+  top: 64%;
+  left: 41%;
+}
+
+#int_img14 {
+  position: absolute;
+  top: 83%;
+  left: 15%;
+}
+
+#int_img15 {
+  position: absolute;
+  top: 83%;
+  left: 20%;
+}
+
+#int_img16 {
+  position: absolute;
+  top: 88%;
+  left: 41%;
+}
+
+.int_img {
+  display: none;
+}
+
+/*img에 hover 효과가 적용되지 않음 - div여야 함*/
+
+.loc:hover .poi {
+  transform: scale(1.5);
+  transition: 0.5s ease;
+}

@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../이미지_잘먹는나/메인페이지_배경이미지-배경제거ver.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 3em;
+  position: absolute;
+  top: 6%;
+  left: 12%;
+}
+
+/* 위치, 시간, 메뉴 타이틀 글씨 크기 및 위치 */
+#loc_title,
+#time_title,
+#menu_title {
+  font-size: 2.3em;
+}
+
+#loc_title {
+  position: absolute;
+  top: 22%;
+  left: 12%;
+}
+
+#time_title {
+  position: absolute;
+  top: 47%;
+  left: 12%;
+}
+
+#menu_title {
+  position: absolute;
+  top: 68%;
+  left: 12%;
+}
+
+/* 스티커 크기 */
+#loc_st {
+  width: 40px;
+  height: auto;
+
+  position: relative;
+  bottom: 3px;
+  /*조금 밑으로 내려가도록*/
+}
+
+#time_st {
+  width: 60px;
+  height: auto;
+}
+
+#menu_st {
+  width: 50px;
+  height: auto;
+}
+
+/* 내용 위치 */
+#location {
+  font-size: 1.8em;
+  position: absolute;
+  top: 30%;
+  left: 12%;
+}
+
+#time {
+  font-size: 1.8em;
+  position: absolute;
+  top: 51%;
+  left: 12%;
+}
+
+#menu {
+  font-size: 1.8em;
+  position: absolute;
+  top: 78%;
+  left: 12%;
+}

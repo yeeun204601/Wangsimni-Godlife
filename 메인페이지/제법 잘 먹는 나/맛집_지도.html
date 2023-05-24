@@ -2,15 +2,307 @@
 <html>
 <head>
     <title>왕십리 맛집 지도</title>
+    <link rel="stylesheet" href="맛집_지도.css">
 </head>
 
 <body>
-    <a href="맛집_메뉴.html" target="_blank"><img src="맛집_지도.jpg" alt="출처: 네이버 지도"></a>
-    <h2>맛집 선정 기준</h2>
-    <ul>
-        <li><strong>가성비</strong> (10,000원 이하로 한끼 해결할 수 있는 곳)</li>
-        <li><strong>접근성</strong> (한양대와 왕십리역 사이에 위치하고 있는 곳)</li>
-        <li><strong>집단지성</strong> (에브리타임에서 언급횟수 잦은 곳)</li>
-    </ul>
+    <header>
+        <h1>왕십리 맛집 지도</h1>
+    </header>
+
+    <img src="왕십리지도 및 포인터/맛집지도_수정.png" alt="출처: 네이버 지도" id="map">
+        
+    <div id="standard">
+        <h2 id="standard_text">나만의 맛집 선정 기준은!</h2>
+        <ul id="standard_elements">
+            <li><strong>가성비</strong> <br>10,000원 이하로 한끼 해결할 수 있는 곳</li>
+            <li><strong>접근성</strong> <br>한양대와 왕십리역 사이에 위치하고 있는 곳</li>
+            <li><strong>집단지성</strong> <br>에브리타임에서 언급횟수 잦은 곳</li>
+        </ul>
+    </div>
+
+    <a href="맛집_메뉴.html" target="_blank" id="allrest">
+        <img src="스티커/배고파손글씨-removebg-preview.png" id="hungry">
+        <p>세상엔 맛있는 게 참 많아...</p>
+    </a>
+
+    <!--포인터 만들고 정보 뜨도록-->
+
+    <!--1. 스마일즉석떡볶이-->
+    <div class="loc" id="loc1">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi1"
+    onclick="location.href='맛집 식당별모음/스마일.html'"></a>
+    </div>
+    <!--2. 버거쑈-->
+    <div class="loc" id="loc2">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi2"
+    onclick="location.href='맛집 식당별모음/버거쑈.html'">
+    </div>
+    <!--3. 악떡-->
+    <div class="loc" id="loc3">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi3"
+    onclick="location.href='맛집 식당별모음/악떡.html'">
+    </div>
+    <!--4. 브라운돈가스-->
+    <div class="loc" id="loc4">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi4"
+    onclick="location.href='맛집 식당별모음/브라운돈가스.html'">
+    </div>
+    <!--5. 부대스토리-->
+    <div class="loc" id="loc5">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi5"
+    onclick="location.href='맛집 식당별모음/부대스토리.html'">
+    </div>
+    <!--6. 서래갈매기-->
+    <div class="loc" id="loc6">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi6"
+    onclick="location.href='맛집 식당별모음/서래갈매기.html'">
+    </div>
+    <!--7. 일락-->
+    <div class="loc" id="loc7">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi7"
+    onclick="location.href='맛집 식당별모음/일락.html'">
+    </div>
+    <!--8. 일번지-->
+    <div class="loc" id="loc8">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi8"
+    onclick="location.href='맛집 식당별모음/일번지.html'">
+    </div>
+    <!--9. 하쿠나마타타-->
+    <div class="loc" id="loc9">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi9"
+    onclick="location.href='맛집 식당별모음/하쿠나마타타.html'">
+    </div>
+    <!--10. 끄트머리집-->
+    <div class="loc" id="loc10">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi10"
+    onclick="location.href='맛집 식당별모음/끄트머리집.html'">
+    </div>
+    <!--11. 마쿠-->
+    <div class="loc" id="loc11">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi11"
+    onclick="location.href='맛집 식당별모음/마쿠.html'">
+    </div>
+    <!--12. 철남-->
+    <div class="loc" id="loc12">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi12"
+    onclick="location.href='맛집 식당별모음/철남.html'">
+    </div>
+    <!--13. 치폴레옹-->
+    <div class="loc" id="loc13">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi13"
+    onclick="location.href='맛집 식당별모음/치폴레옹.html'">
+    </div>
+    <!--14. 히토리우동-->
+    <div class="loc" id="loc14">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi14"
+    onclick="location.href='맛집 식당별모음/히토리우동.html'">
+    </div>
+    <!--15. 이돈집-->
+    <div class="loc" id="loc15">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi15"
+    onclick="location.href='맛집 식당별모음/이돈.html'">
+    </div>
+    <!--16. 행돈-->
+    <div class="loc" id="loc16">
+    <img src="왕십리지도 및 포인터/포인터.png" class="poi" id="poi16"
+    onclick="location.href='맛집 식당별모음/행운돈까스.html'">
+    </div>
+
+    <!--포인터 클릭 문구-->
+    <img src="스티커/메인페이지_다이어리_스티커4-removebg-preview.png" id="tryclick_img">
+    <p id="tryclick">지도 위 포인터에<br>마우스를 올려보고<br>클릭해보자!</p>
+
+    <!--식당 간단 소개 스크롤 팝업-->
+    
+    <div class="int_img" id="int_img1">
+        <div class="int" id="int1">
+            <h5>스마일 즉석떡볶이</h5>
+            <p>분식 / 떡볶이
+                <br>
+                <br><strong>운영시간:</strong><br>월-금 10:30 ~ 21:00
+                <br>토 10:30 ~ 16:00
+                <br>(일요일 정기휴무)
+                <br>(브레이크 타임 15:00 ~ 16:00)
+            </p>
+        </div>
+    </div>
+
+
+    <div class="int_img" id="int_img2">
+        <div class="int" id="int2">
+            <h5>버거쑈</h5>
+            <p>햄버거 / 수제버거
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>매일 11:00 ~ 22:30
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img3">
+        <div class="int" id="int3">
+            <h5>악어떡볶이</h5>
+            <p>분식 / 떡볶이
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>10:30 ~ 21:00 (월요일 정기휴무)
+                <br>(브레이크 타임 15:00 ~ 15:30)
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img4">
+        <div class="int" id="int4">
+            <h5>브라운돈까스</h5>
+            <p>돈가스
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>10:00 ~ 21:00 (일요일 정기휴무)
+                <br>(브레이크 타임 16:00 ~ 17:00)
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img5">
+        <div class="int" id="int5">
+            <h5>부대스토리</h5>
+            <p>찌개 / 부대찌개
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>11:00 ~ 22:00 (월요일 정기휴무)
+                <br>(브레이크 타임 15:00 ~ 16:00)
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img6">
+        <div class="int" id="int6">
+            <h5>서래갈매기</h5>
+            <p>고기 / 돼기고기구이
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>월-토 11:00 ~ 21:00
+                <br>일 12:00 ~ 21:00
+                <br>(브레이크 타임 15:00 ~ 16:00)
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img7">
+        <div class="int" id="int7">
+            <h5>일락</h5>
+            <p>라면 / 일본식 라면
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>매일 11:00 ~ 22:30
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img8">
+        <div class="int" id="int8">
+            <h5>일번지</h5>
+            <p>한식 / 닭떡찜
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>18:00 ~ 24:00 (일요일 정기휴무)
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img9">
+        <div class="int" id="int9">
+            <h5>하쿠나마타타</h5>
+            <p>일식 / 일본 가정식
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>매일 10:30 ~ 21:00
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img10">
+        <div class="int" id="int10">
+            <h5>끄트머리집</h5>
+            <p>한식 / 돼지김치구이
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>매일 11:00 ~ 22:00
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img11">
+        <div class="int" id="int11">
+            <h5>마쿠 마라탕</h5>
+            <p>중식 / 마라탕
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>매일 11:00 ~ 22:00
+                <br>(브레이크 타임 15:30 ~ 17:00)
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img12">
+        <div class="int" id="int12">
+            <h5>철남</h5>
+            <p>한식 / 두루치기
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>매일 10:00 ~ 21:30
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img13">
+        <div class="int" id="int13">
+            <h5>치폴레옹</h5>
+            <p>스테이크, 립
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>매일 10:00 ~ 22:00
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img14">
+        <div class="int" id="int14">
+            <h5>히토리우동</h5>
+            <p>일식 / 우동
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>월-금 11:30 ~ 21:00
+                <br>토 12:00 ~ 21:00
+                <br>(브레이크 타임 15:00 ~ 17:00)
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img15">
+        <div class="int" id="int15">
+            <h5>이돈집</h5>
+            <p>찌개 / 돼지김치찌개
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>매일 11:00 ~ 22:00
+                <br>(브레이크 타임 15:30 ~ 17:00)
+            </p>
+        </div>
+    </div>
+
+    <div class="int_img" id="int_img16">
+        <div class="int" id="int16">
+            <h5>행운돈까스</h5>
+            <p>돈가스
+                <br>
+                <br><strong>운영시간:</strong>
+                <br>매일 10:00 ~ 21:30
+            </p>
+        </div>
+    </div>
+
+    <script src="맛집_지도.js"></script>
 </body>
 </html>

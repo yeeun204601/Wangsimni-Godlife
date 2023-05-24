@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("이미지_잘먹는나/메인페이지_배경이미지-배경제거ver.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  margin-bottom: 50px;
+}
+
+div#모아보기 {
+  font-size: 2em;
+
+  position: absolute;
+  top: 13%;
+  left: 12%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.conv {
+  display: flex;
+  flex: 0 0 calc(25% - 10px);
+  text-align: center;
+  font-size: 17px;
+  white-space: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conv h2,
+.conv p {
+  line-height: 10%;
+}
+
+.conv h2 {
+  margin-top: 80px;
+}
+
+.conv p,
+.conv ul {
+  font-size: 1.1em;
+}
+/*
+.conv {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+ul {
+  line-height: 80%;
+}
+*/
+
+/*세부 위치 조정*/
+#conv1,
+#conv2,
+#conv3,
+#conv4 {
+  margin-top: 110px;
+}
+
+#conv2,
+#conv6 {
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+#conv3,
+#conv7 {
+  margin-right: -40px;
+}
+
+/*gs, cu, 세븐일레븐 별 포스트잇 지정*/
+#conv1,
+#conv4,
+#conv7 {
+  background-size: 100%;
+  background-image: url("포스트잇/포스트잇2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#conv3,
+#conv5,
+#conv8 {
+  background-size: 100%;
+  background-image: url("포스트잇/포스트잇4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#conv2,
+#conv6 {
+  background-size: 90%;
+  background-image: url("포스트잇/포스트잇7.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}

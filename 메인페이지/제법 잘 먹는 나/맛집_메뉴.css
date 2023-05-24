@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("이미지_잘먹는나/메인페이지_배경이미지-배경제거ver.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  margin-bottom: 50px;
+}
