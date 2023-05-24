@@ -14,27 +14,34 @@ body {
     font-family: 'GangwonEduSaeeum_OTFMediumA';
   }
   
-  header {
+  
+  h2 {
     position: absolute;
-    top: 12%;
+    top: 10%;
     left: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  h2 {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 20px;
   }
-  
-  p {
-    font-size: 18px;
-    margin-bottom: 10px;
+
+  a {
+    position: absolute;
+    top: 6%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
   }
+
+  
+
+
   
   nav {
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 40%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -49,50 +56,57 @@ body {
     flex-wrap: wrap;
     justify-content: flex-end;
     gap: 10px 0;
-    width: 120%;
+    width: 130%;
   }
   
   li {
     flex: 0 0 calc(25% - 10px);
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     white-space: nowrap;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 100px 0;
-    line-height: 35px;
+    line-height: 30px;
   }
 
   li.pink {
-    background-image: url('핑크포스트잇.png');
+    background-image: url('포스트잇핑크_수정.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 280px;
   }
   
   li.yellow {
-    background-image: url('포스트잇노랑.png');
+    background-image: url('포스트잇노랑_수정.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 280px;
   }
   
   li.skyblue {
-    background-image: url('포스트잇하늘.png');
+    background-image: url('포스트잇하늘_수정.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 280px;
   }
   
   li.green {
-    background-image: url('포스트잇그린.png');
+    background-image: url('포스트잇그린_수정.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 280px;
   }
   
-  li p {
-    margin: 5px 0;
+  #Mapmark {
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-image: url('Mapmark.png');
+    background-size: cover;
   }
-  #map {
-    margin-top: 50px;
-  }
-  
