@@ -5,6 +5,15 @@
   font-style: normal;
 }
 
+header .logo {
+  position: absolute;
+  display: block;
+  top: 5%;
+  left: 50%;
+  z-index: 1;
+}
+
+
 body {
   background-image: url("메인페이지_배경이미지-배경제거_long.ver.png");
   background-repeat: no-repeat;
@@ -22,12 +31,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-header .logo {
-  position: absolute;
-  display: block;
-  top: 30px;
-  left: 50%;
-}
 
 a {
   position: absolute;

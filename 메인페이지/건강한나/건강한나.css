@@ -12,6 +12,14 @@ body {
   font-family: 'GangwonEduSaeeum_OTFMediumA';
 }
 
+header .logo {
+  position: absolute;
+  display: block;
+  top: -2%;
+  left: 47%;
+  z-index: 1;
+}
+
 ul {
   list-style: none;
   text-align: center;
@@ -105,14 +113,6 @@ p#tag {
   font-size: 1.4em;
   color: darkgrey;
   font-style: italic;
-}
-
-/* header */
-header .logo {
-  position: absolute;
-  display: block;
-  top: 0px;
-  left: 50%;
 }
 
 #currentDate {
