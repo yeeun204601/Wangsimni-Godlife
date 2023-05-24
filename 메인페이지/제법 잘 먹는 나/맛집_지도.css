@@ -26,12 +26,12 @@ header {
 }
 
 .logo {
-  position:absolute;
-  display:block;
-  top:-1px;
-  width:100%;
-  left:50%;
-  padding:0;
+  position: absolute;
+  display: block;
+  top: -1px;
+  width: 100%;
+  left: 50%;
+  padding: 0;
   margin: 0;
 }
 
@@ -93,6 +93,16 @@ ul#standard_elements {
   position: absolute;
   left: 80%;
   bottom: 10%;
+}
+
+/*인덱스 포스트잇*/
+#index {
+  height: 300px;
+  width: auto;
+
+  position: absolute;
+  top: 5%;
+  right: -2%;
 }
 
 /*포인터 크기 및 위치 설정*/

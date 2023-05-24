@@ -1,6 +1,7 @@
 @font-face {
   font-family: "GangwonEduSaeeum_OTFMediumA";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,7 +33,7 @@ body {
   background-image: url("메인페이지_배경이미지-배경제거ver.png");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  font-family: "GangwonEduSaeeum_OTFMediumA";
   margin-top: 80px;
   margin-bottom: 50px;
 }
@@ -46,21 +47,21 @@ p#jsdate {
 }
 
 #purple:hover {
-  background-image: url('보라색하이라이트.png');
+  background-image: url("보라색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 170px;
 }
 
 #red:hover {
-  background-image: url('빨간색하이라이트.png');
+  background-image: url("빨간색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 160px;
 }
 
 #blue:hover {
-  background-image: url('파란색하이라이트.png');
+  background-image: url("파란색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 160px;
@@ -81,22 +82,22 @@ h3 {
   margin-top: -40px;
 }
 
-img#index{
+img#index {
   position: absolute;
   left: 79%;
   bottom: 30%;
   cursor: pointer;
 }
-p#tag{
+p#tag {
   position: absolute;
   left: 83%;
-  bottom: 60%;
+  bottom: 57%;
   font-size: 1.8em;
-  color:darkgrey;
-  font-style:italic;
+  color: darkgrey;
+  font-style: italic;
 }
 
-img#index_s{
+img#index_s {
   cursor: pointer;
   position: absolute;
   left: 78%;
@@ -105,13 +106,11 @@ img#index_s{
 
 /* header */
 header .logo {
-  position:absolute;
-  display:block;
-  top:-1px;
-  width:100%;
-  left:50%;
-  padding:0;
+  position: absolute;
+  display: block;
+  top: -1px;
+  width: 100%;
+  left: 50%;
+  padding: 0;
   margin: 0;
 }
-
-

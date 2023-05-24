@@ -23,6 +23,12 @@ h1 {
   left: 20%;
   transform: translate(-50%, -50%);
   text-align: center;
+
+  background-image: url("형광펜/빨간색하이라이트.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 220px 60px;
+  opacity: 0.9;
 }
 
 p {
@@ -74,11 +80,50 @@ p#jsdate {
 
 /* header */
 header .logo {
-  position:absolute;
-  display:block;
-  top:-1px;
-  width:100%;
-  left:50%;
-  padding:0;
+  position: absolute;
+  display: block;
+  top: -1px;
+  width: 100%;
+  left: 50%;
+  padding: 0;
   margin: 0;
+}
+
+#맛집지도:hover {
+  background-image: url("형광펜/파란색하이라이트.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 220px 60px;
+  opacity: 0.9;
+}
+
+#편의점지도:hover {
+  background-image: url("형광펜/보라색하이라이트.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 220px 60px;
+  opacity: 0.9;
+}
+
+/*인덱스 포스트잇*/
+#index {
+  position: absolute;
+  top: 20%;
+  right: -1%;
+}
+
+#tag {
+  position: absolute;
+  top: 32%;
+  left: 87%;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+p#jsdate {
+  font-family: GangwonEduSaeeum_OTFMediumA;
+  font-size: 40px;
+  position: absolute;
+  top: 60px;
+  left: 80%;
 }

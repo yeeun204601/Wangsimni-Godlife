@@ -30,7 +30,7 @@ body {
   background-image: url("메인페이지_배경이미지.png");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  font-family: "GangwonEduSaeeum_OTFMediumA";
   margin-top: 80px;
   margin-bottom: 50px;
 }
@@ -59,77 +59,77 @@ h3 {
 }
 
 #purple:hover {
-  background-image: url('보라색하이라이트.png');
+  background-image: url("보라색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 170px;
 }
 #yellow:hover {
-  background-image: url('노란색하이라이트.png');
+  background-image: url("노란색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 160px;
 }
 #red:hover {
-  background-image: url('빨간색하이라이트.png');
+  background-image: url("빨간색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 160px;
 }
 
 #blue:hover {
-  background-image: url('파란색하이라이트.png');
+  background-image: url("파란색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 160px;
 }
 #lightblue:hover {
-  background-image: url('하늘색하이라이트.png');
+  background-image: url("하늘색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 160px;
 }
 #green:hover {
-  background-image: url('초록색하이라이트.png');
+  background-image: url("초록색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 160px;
 }
 #orange:hover {
-  background-image: url('주황색하이라이트.png');
+  background-image: url("주황색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 160px;
 }
 #gray:hover {
-  background-image: url('회색하이라이트.png');
+  background-image: url("회색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 160px;
 }
 #brown:hover {
-  background-image: url('갈색하이라이트.png');
+  background-image: url("갈색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 160px;
 }
 
-img#index{
+img#index {
   position: absolute;
   left: 79%;
   bottom: 30%;
   cursor: pointer;
 }
-p#tag{
+p#tag {
   position: absolute;
   left: 84%;
-  bottom: 58%;
+  bottom: 55%;
   font-size: 1.8em;
-  color:darkgrey;
-  font-style:italic;
+  color: darkgrey;
+  font-style: italic;
 }
 
-img#index_s{
+img#index_s {
   cursor: pointer;
   position: absolute;
   left: 78%;
@@ -139,65 +139,69 @@ img#index_s{
   cursor: pointer;
 }
 .sidebar {
-  width:300px;
-  height:100%;
-  background-color:#ffffed;
-  position:absolute;
-  top:0;
-  left:-400px;
-  z-index:10;
-  border:2px solid black;
-  transition:left .3s ease-in;
+  width: 300px;
+  height: 100%;
+  background-color: #ffffed;
+  position: absolute;
+  top: 0;
+  left: -400px;
+  z-index: 10;
+  border: 2px solid black;
+  transition: left 0.3s ease-in;
 }
 #sidebar {
-  list-style:none;
-  font-size:40px;
-  margin:0;
-  padding:0;
+  list-style: none;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
 }
 #sidebar_out {
-  display:block;
-  float:right;
+  display: block;
+  float: right;
 }
 #sidebar a {
   display: flex;
-  align-items:center;
-  text-decoration:none;
-  padding:10px;
-  clear:both;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+  clear: both;
 }
-#sidebar a:link, a:visited {
+#sidebar a:link,
+a:visited {
   color: black;
 }
 /* 사이드바 호버 효과*/
 #side_eat:hover {
-  background:url('이미지/메인페이지_별_표시_물감하이라이트/004-remove.png') no-repeat center left;
+  background: url("이미지/메인페이지_별_표시_물감하이라이트/004-remove.png")
+    no-repeat center left;
   background-size: 200px 50px;
 }
 #side_smart:hover {
-  background:url('이미지/메인페이지_별_표시_물감하이라이트/005-remove.png') no-repeat center left;
+  background: url("이미지/메인페이지_별_표시_물감하이라이트/005-remove.png")
+    no-repeat center left;
   background-size: 230px 50px;
 }
 #side_strong:hover {
-  background:url('이미지/메인페이지_별_표시_물감하이라이트/008-remove.png') no-repeat center left;
+  background: url("이미지/메인페이지_별_표시_물감하이라이트/008-remove.png")
+    no-repeat center left;
   background-size: 200px 50px;
 }
 #side_play:hover {
-  background:url('이미지/메인페이지_별_표시_물감하이라이트/006-remove.png') no-repeat center left;
+  background: url("이미지/메인페이지_별_표시_물감하이라이트/006-remove.png")
+    no-repeat center left;
   background-size: 200px 50px;
 }
 
 /* header */
 header .logo {
-  position:absolute;
-  display:block;
-  top:-1px;
-  width:100%;
-  left:50%;
-  padding:0;
+  position: absolute;
+  display: block;
+  top: -1px;
+  width: 100%;
+  left: 50%;
+  padding: 0;
   margin: 0;
 }
 nav {
-  display:flex;
+  display: flex;
 }
-

@@ -1,31 +1,32 @@
 /* 폰트 */
 @font-face {
-  font-family: 'GangwonEduSaeeum_OTFMediumA';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 /* 배경 이미지 */
 body {
-  background: url('이미지/메인페이지_노트배경이미지/메인페이지_배경이미지.png');
-  background-repeat:repeat-y;
+  background: url("이미지/메인페이지_노트배경이미지/메인페이지_배경이미지.png");
+  background-repeat: repeat-y;
   background-size: 100%;
-  height:230vh;
-  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  height: 230vh;
+  font-family: "GangwonEduSaeeum_OTFMediumA";
 }
 
 /* header */
 header .logo {
-  position:absolute;
-  display:block;
-  top:-1px;
-  left:50%;
-  padding:0;
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: 50%;
+  padding: 0;
   margin: 0;
 }
 nav {
-  display:flex;
+  display: flex;
 }
 
 /* 메뉴 */
@@ -35,61 +36,71 @@ nav {
 
 /* 별 표시 하이라이트*/
 #star_stic {
-  position:absolute;
-  top:-68%; left:12%;
+  position: absolute;
+  top: -68%;
+  left: 12%;
 }
 
 /* h1 */
 h1 {
-  font-size:40px;
+  font-size: 40px;
 }
 h1#nav_title {
-  position:absolute;
-  top:17%; left:47%;
+  position: absolute;
+  top: 17%;
+  left: 47%;
 }
 h1#goal {
-  margin:0px;
-  position:absolute;
-  top:80px; left:150px;
+  margin: 0px;
+  position: absolute;
+  top: 80px;
+  left: 150px;
 }
 
 /* 날짜 */
 .date {
-  font-size:50px;
+  font-size: 50px;
 }
 #date1 {
-  position:absolute;
-  top:4%; right:12%;
+  position: absolute;
+  top: 4%;
+  right: 12%;
 }
 
 /* 종강 d-day */
 .d-day {
-  font-size:50px;
+  font-size: 50px;
 }
 #d-day1 {
-  position:absolute;
-  top:11%; right:13%;
+  position: absolute;
+  top: 11%;
+  right: 13%;
 }
 
 /* 섹션 */
 section {
-  line-height:150%;
+  line-height: 150%;
   display: flex;
-  margin:0;
+  margin: 0;
 }
-section .eat, .smart, .strong, .play {
-  display:none;
+section .eat,
+.smart,
+.strong,
+.play {
+  display: none;
 }
 
 /* 대표 목차 페이지 불릿 이미지 변경*/
 .navbar > li {
   font-size: 65px;
   letter-spacing: 1px;
-  list-style-position:inside;
-  list-style-image:url('이미지/메인페이지_스티커/메인페이지_불릿.png');
+  list-style-position: inside;
+  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿.png");
   padding: 20px 20px 0 0;
 }
-.eat > li, .strong > li, .play > li {
+.eat > li,
+.strong > li,
+.play > li {
   font-size: 50px;
   letter-spacing: 1px;
   margin: 30px;
@@ -97,157 +108,192 @@ section .eat, .smart, .strong, .play {
 .smart > li {
   font-size: 50px;
   letter-spacing: 1px;
-  margin: 30px auto; 
+  margin: 30px auto;
 }
 
 /* 목차 리스트 위치 고정 */
-#eat, #smart, #strong, #play {
-  position:absolute;
-  left:38%;
+#eat,
+#smart,
+#strong,
+#play {
+  position: absolute;
+  left: 38%;
 }
 #eat {
-  top:32%;
+  top: 32%;
 }
 #smart {
-  top:62%;
+  top: 62%;
 }
 #strong {
-  top:145%;
+  top: 135%;
 }
 #play {
-  top:185%;
+  top: 175%;
 }
 
 /* 세부 페이지 불릿 이미지 변경*/
 .eat > #food_map {
-  list-style-image: url('이미지/메인페이지_스티커/메인페이지_불릿2.png');
+  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿2.png");
 }
 .eat > #conv_map {
-  list-style-image: url('이미지/메인페이지_스티커/메인페이지_불릿3.png');
+  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿3.png");
 }
 .smart > li {
-  list-style-image: url('이미지/메인페이지_스티커/메인페이지_불릿4.png');
+  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿4.png");
 }
 .strong > li {
-  list-style-image: url('이미지/메인페이지_스티커/메인페이지_불릿6.png');
+  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿6.png");
 }
 .play > li {
-  list-style-image: url('이미지/메인페이지_스티커/메인페이지_불릿5.png');
+  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿5.png");
 }
 
 /* 스티커 위치 */
 /* 젓/숫가락 */
 #stic_1 {
-  position:absolute;
-  top: 10%; left:-50%;
+  position: absolute;
+  top: 10%;
+  left: -50%;
 }
 /* happy */
 #stic_2 {
-  position:absolute;
-  top:-20%; right:-40%;
+  position: absolute;
+  top: -20%;
+  right: -40%;
 }
 /* 스마일 */
 #stic_3 {
-  position:absolute;
-  top:19%; left:42%;
+  position: absolute;
+  top: 19%;
+  left: 42%;
 }
 /* 배고파 */
 #stic_4 {
-  position:absolute;
-  top:-20%; right:-30%;
+  position: absolute;
+  top: -20%;
+  right: -30%;
 }
 /* hyu */
 #stic_5 {
-  position:absolute;
-  top:-10%; left:-10%;
+  position: absolute;
+  top: -10%;
+  left: -10%;
 }
 /* 아령 */
 #stic_6 {
-  position:absolute;
-  top:10%; left:-50%;
+  position: absolute;
+  top: 10%;
+  left: -50%;
 }
 /* 약국 */
 #stic_7 {
-  position:absolute;
-  top:60%; left:-30%;
+  position: absolute;
+  top: 60%;
+  left: -30%;
 }
 /* 카드 */
 #stic_8 {
-  position:absolute;
-  top:0px; right:-40%;
+  position: absolute;
+  top: 0px;
+  right: -40%;
 }
 /* 주사위 */
 #stic_9 {
-  position:absolute;
-  top:50px; left:-40%;
+  position: absolute;
+  top: 50px;
+  left: -40%;
 }
 /* 한양대역 */
 #stic_10 {
-  position:absolute;
-  top:35%; left: -60%;
+  position: absolute;
+  top: 35%;
+  left: -60%;
 }
 /* 사자상 */
 #stic_11 {
-  position:absolute;
-  top:25%; right: -60%;
+  position: absolute;
+  top: 25%;
+  right: -60%;
 }
 /* 공강시간 */
 #stic_12 {
-  position:absolute;
-  top:-70%; left:-30%;
+  position: absolute;
+  top: -70%;
+  left: -30%;
 }
 
 /* 스티커 호버효과 */
-.eat_sticker, .smart_sticker, .strong_sticker, .play_sticker{
-  display:none;
+.eat_sticker,
+.smart_sticker,
+.strong_sticker,
+.play_sticker {
+  display: none;
 }
-#eat:hover>.eat_sticker, #smart:hover>.smart_sticker, #strong:hover>.strong_sticker, #play:hover>.play_sticker {
-  display:flex;
+#eat:hover > .eat_sticker,
+#smart:hover > .smart_sticker,
+#strong:hover > .strong_sticker,
+#play:hover > .play_sticker {
+  display: flex;
 }
 
 /* 다운 화살표 */
 #down_bt {
-  position:absolute;
-  bottom:0%; right:100px;
+  position: absolute;
+  bottom: 0%;
+  right: 100px;
 }
 /* 업 화살표 */
 #up_bt {
-  position:absolute;
-  bottom:-125%; right:80px;
+  position: absolute;
+  bottom: -110%;
+  right: 100px;
 }
 
-section ul a:link,:visited {
-  color:black;
-  text-decoration:none;
+section ul a:link,
+:visited {
+  color: black;
+  text-decoration: none;
 }
 /* 목차 페이지 호버 효과 */
 section ul #eat:hover {
-  background:url('이미지/메인페이지_별_표시_물감하이라이트/004-remove.png') no-repeat center top;
+  background: url("이미지/메인페이지_별_표시_물감하이라이트/004-remove.png")
+    no-repeat center top;
   background-size: 320px 60px;
 }
 section ul #smart:hover {
-  background:url('이미지/메인페이지_별_표시_물감하이라이트/005-remove.png') no-repeat center top;
+  background: url("이미지/메인페이지_별_표시_물감하이라이트/005-remove.png")
+    no-repeat center top;
   background-size: 370px 60px;
 }
 section ul #strong:hover {
-  background:url('이미지/메인페이지_별_표시_물감하이라이트/008-remove.png') no-repeat center top;
+  background: url("이미지/메인페이지_별_표시_물감하이라이트/008-remove.png")
+    no-repeat center top;
   background-size: 320px 60px;
 }
 section ul #play:hover {
-  background:url('이미지/메인페이지_별_표시_물감하이라이트/006-remove.png') no-repeat center top;
+  background: url("이미지/메인페이지_별_표시_물감하이라이트/006-remove.png")
+    no-repeat center top;
   background-size: 320px 60px;
 }
-section ul #eat:hover>.eat, #smart:hover>.smart, #strong:hover>.strong, #play:hover > .play {
-  display:block;
+section ul #eat:hover > .eat,
+#smart:hover > .smart,
+#strong:hover > .strong,
+#play:hover > .play {
+  display: block;
 }
-section .eat a:hover, .smart a:hover, .strong a:hover, .play a:hover {
-  text-decoration:underline;
+section .eat a:hover,
+.smart a:hover,
+.strong a:hover,
+.play a:hover {
+  text-decoration: underline;
 }
 
 /* footer */
 footer {
-  font-size:40px;
-  margin:130px;
-  position:absolute;
-  bottom:-150%; left:20px;
+  font-size: 40px;
+  margin: 130px;
+  position: absolute;
+  bottom: -130%;
+  left: 20px;
 }
