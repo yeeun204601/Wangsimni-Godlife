@@ -114,3 +114,28 @@ header .logo {
   padding: 0;
   margin: 0;
 }
+
+input[type="checkbox"]{
+  display: none;
+}
+
+input[type="checkbox"]+label{
+  display: inline-block;
+  border:3px solid green;
+  width:18px;
+  height:18px;
+  position: relative;
+  cursor:pointer;
+}
+
+input[type="checkbox"]:checked+label::after{
+  content:'✔';
+  font-size:32px;
+  text-align: center;
+  color:red;
+  width:18px;
+  height:18px;
+  position: absolute;
+  bottom: 12px;
+  cursor:pointer;
+}

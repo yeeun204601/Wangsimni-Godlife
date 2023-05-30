@@ -18,6 +18,11 @@
             line-height: 150%;
             font-size: 28px;
         }
+        ol li {
+            padding: 10px;
+            display: inline-block;
+            color:green;
+        }
 
         h1 {
             background-image: url('빨간색하이라이트.png');
@@ -45,9 +50,16 @@
                 <li>생필품: 자취러들이 가장 당황할 때... 집에 휴지가 없을 때...
                     1+1 행사 때 충분히 집에 구비해놓기!
                     <br>이것들은 생필품 목록이야.</li>
-                <ul id="list">
-                    <li>샴푸 / 린스 / 바디워시 / 비누 / 치약 / 칫솔 / 락스 / 용량 많은 가루세제</li>
-                </ul>
+                <ol id="list">
+                        <li><input type="checkbox" id="check1"> <label for="check1"></label>&nbsp샴푸</li>
+                        <li><input type="checkbox" id="check2"> <label for="check2"></label>&nbsp린스</li>
+                        <li><input type="checkbox" id="check3"> <label for="check3"></label>&nbsp바디워시</li>
+                        <li><input type="checkbox" id="check4"> <label for="check4"></label>&nbsp비누</li>
+                        <li><input type="checkbox" id="check5"> <label for="check5"></label>&nbsp치약</li>
+                        <li><input type="checkbox" id="check6"> <label for="check6"></label>&nbsp칫솔</li>
+                        <li><input type="checkbox" id="check7"> <label for="check7"></label>&nbsp락스</li>
+                        <li><input type="checkbox" id="check8"> <label for="check8"></label>&nbsp가루세제</li>
+                </ol>
                 
                 <li>물티슈: 걸레, 행주 대신 슥슥 닦기.</li>
                 <li>무선 청소기: 아무리 방이 작아도 있어야 청결도 100 상승</li>
