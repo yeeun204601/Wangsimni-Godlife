@@ -1,10 +1,15 @@
-const items = document.getElementsByClassName("conv");
+const items = Array.from(document.getElementsByClassName('conv'));
 
 let activeItem = null;
 let currentX, currentY, initialX, initialY, xOffset = 0, yOffset = 0;
 
 // mousedown 이벤트 핸들러
 function dragStart(e) {
+  // 텍스트 요소인 경우 드래그 동작 막기
+  if (!isDraggable(e.target)) {
+    return;
+  }
+
   // 드래그할 요소 지정
   activeItem = e.target;
 
@@ -15,6 +20,11 @@ function dragStart(e) {
   // 이벤트 핸들러 등록
   document.addEventListener("mousemove", drag);
   document.addEventListener("mouseup", dragEnd);
+}
+
+//드래그 가능한 요소인지 확인하는 함수
+function isDraggable(element) {
+  return !['H2', 'P', 'STRONG', 'UL', 'LI'].includes(element.nodeName);
 }
 
 // mousemove 이벤트 핸들러
