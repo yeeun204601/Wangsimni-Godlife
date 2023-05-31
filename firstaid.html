@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>응급처치 정보</title>
+  <link rel="stylesheet" href="firstaid.css">
+ 
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../mainpage.html"><img id="logo" src="004-remove.png" width="80" height="80"></a>
+        </div>
+    </header>
+    <h2>상황별 응급처치법</h2>
+    <h3>*더블 클릭 시 상세정보가 나와요</h3>
+  <ul>
+    <li style="font-size: 36px;"><a href="#" onclick="toggleContent('cpr')">심폐소생술</a></li>
+    <li><a href="#" onclick="toggleContent('seizure')">경련발작</a></li>
+    <li><a href="#" onclick="toggleContent('nosebleed')">코피</a></li>
+    <li><a href="#" onclick="toggleContent('dental')">치아손상</a></li>
+    <li><a href="#" onclick="toggleContent('choking')">이물질을 삼킨 경우</a></li>
+    <li><a href="#" onclick="toggleContent('fracture')">골절</a></li>
+    <li><a href="#" onclick="toggleContent('eye')">눈손상</a></li>
+    <li><a href="#" onclick="toggleContent('animal')">개나 고양이에 물린 경우</a></li>
+    <li><a href="#" onclick="toggleContent('bee')">벌에 쏘인 경우</a></li>
+    <li><a href="#" onclick="toggleContent('burn')">화상</a></li>
+  </ul>
+
+  <div id="cpr" class="content">
+    <h1>심폐소생술</h1>
+    <p>심폐소생술은 심장마비나 호흡이 멈춘 환자를 대상으로 수술적 개입 없이<br> 심박동을 유지하거나 회복시키는 응급처치 방법입니다.<br> 일반적으로 가슴압박과 인공호흡을 통해 수행됩니다.</p>
+    <ol>
+      <li>환자의 안전을 확인합니다.</li>
+      <li>119에 신고하거나 주변 사람들에게 도움을 요청합니다.</li>
+      <li>환자의 의식 유무와 호흡 여부를 확인합니다.</li>
+      <li>심장마비 의심 시, 가슴압박을 시작합니다.</li>
+      <li>가슴압박과 인공호흡을 교대로 수행합니다.</li>
+      <li>구조대 또는 의료진의 도착까지 계속해서 CPR을 수행합니다.</li>
+    </ol>
+  </div>
+
+  <div id="seizure" class="content">
+    <h1>경련발작</h1>
+    <p>경련발작 시 행동을 보이는 사람을 보호하고 안전한 환경을 조성해야 합니다.</p>
+    <ol>
+        <li>경련이나 발작을 하는 경우, 구토물 등에 의한 기도폐쇄를 막기 위해 머리를 옆으로 돌려준다.</li>
+            <li>옷은 느슨하게 하고, 조이는 것은 풀어준다.</li>
+            <li>부딪치면 다칠 수 있는 물건들을 치운다.</li>
+            <li>입속에 아무것도 넣지 않는다.</li>
+            <li>119에 신고하고 아이의 피부색이 새파래지거나(청색증) 숨을 쉬지 않는지 잘 관찰한다.</li>
+    </ol>
+  </div>
+
+  <div id="nosebleed" class="content">
+    <h1>코피</h1>
+    <p>코피가 발생한 경우 적절한 처치를 통해 피를 멈추도록 도와야 합니다.</p>
+    <ol>
+        <li>코피가 목으로 넘어가지 않도록 앉은 자세에서 고개를 앞으로 살짝 숙인다.</li>
+        <li>콧등 뼈가 끝나는 바로 아래 콧방울 부위를 엄지와 집게손가락으로 10분 이상 압박해 준다.</li>
+        <li>찬 물수건이나 얼음주머니를 콧등에 얹어 냉찜질 해준다.</li>
+    </ol>
+  </div>
+
+  <div id="dental" class="content">
+    <h1>치아손상</h1>
+    <p>치아손상이 발생한 경우 즉시 응급 처치를 시행해야 합니다.</p>
+    <ol>
+        <li>출혈이 지속되면 거즈나 깨끗한 수건으로 압박하여 지혈한다.</li>
+        <li>치아 전체가 빠졌을 경우 수돗물로 이물질을 씻어 내고 빠진 자리에 다시 집어넣고 바로 치과나 치과 응급실로 간다.</li>
+    </ol>
+  </div>
+
+  <div id="choking" class="content">
+    <h1>이물질을 삼킨 경우</h1>
+    <p>이물질을 삼킨 경우 효과적인 구조술을 통해 구조하고 구조조치를 시도해야 합니다.</p>
+        <ol>
+            <li>억지로 토하게 하거나 놀라게 하지 않는다.</li>
+                <li>입으로 물이나 음식물 등을 삼키지 않도록 한다.</li>
+                <li>삼킨 물건을 알아내야 하므로 주변 상황을 정확히 확인한다.</li>
+                <li>병원으로 내원하여 x-ray 촬영으로 이물질의 위치나 종류, 모양 등을 알아내고 전문적인 치료를 받는다.</li>
+                <li>기도 등에 걸려 숨이 막힌 경우, 119에 도움을 요청하여 기도폐쇄에 대한 응급처치를 실시한다.</li>
+        </ol>
+  </div>
+
+  <div id="fracture" class="content">
+    <h1>골절</h1>
+    <p>골절이 의심되는 경우 조심스럽게 환자를 안정시키고 응급 처치를 진행해야 합니다.</p>
+        <ol>
+            <li>환자를 안정시킨 뒤 골절 부위를 건드리지 말고 도움을 요청한다.</li>
+                <li>두꺼운 책이나 헝겊 등으로 고정시켜 준다.</li>
+                <li>목이나 허리가 다친 것으로 의심되는 환자는 눕히고 움직이지 않으며,<br> 옷을 덮어 몸을 따뜻하게 해주고 119로 도움을 요청한다.</li>
+        </ol>
+  </div>
+
+  <div id="eye" class="content">
+    <h1>눈손상</h1>
+    <p>눈에 손상이 있는 경우 즉각적인 처치가 필요하며 응급 조치를 취해야 합니다.</p>
+        <ol>
+            <li>이물질(화학물질)이 들어간 경우 흐르는 물로 눈을 씻어준다. 절대 눈을 비비거나 만지지 않는다.</li>
+                <li>눈을 찔리거나 찢어진 경우 물로 눈을 씻지 않는다.</li>
+                <li>이물질이 박혀있는 경우 빼지 말고 고정 후 병원으로 내원한다.</li>
+        </ol>
+  </div>
+
+  <div id="animal" class="content">
+    <h1>개나 고양이에 물린 경우</h1>
+    <p>개나 고양이에 물린 경우 적절한 대처 방법을 사용하여 상황을 다루어야 합니다.</p>
+        <ol>
+            <li>환자를 안정시키고 활동을 최소화한다.</li>
+                <li>물린 부위를 깨끗이 씻고 소독한다.</li>
+                <li>현장에서 동물을 잡아두고 관찰한다.</li>
+        </ol>
+  </div>
+
+  <div id="bee" class="content">
+    <h1>벌에 쏘인 경우</h1>
+    <p>벌에 쏘인 경우 효과적인 대처 방법을 사용하여 즉각적인 처치를 해야 합니다.</p>
+        <ol>
+            <li>얼음 등으로 냉찜질을 하여 통증을 감소시키고 부기를 가라 앉혀준다.</li>
+        </ol>
+  </div>
+
+  <div id="burn" class="content">
+    <h1>화상</h1>
+    <p>화상이 발생한 경우 신속하게 응급 처치를 시행해야 합니다.</p>
+        <ol>
+            <li>환자를 안전한 곳으로 옮긴다.</li>
+            <li>흐르는 시원한 물로 열기를 식혀준다.</li>
+            <li>수압이 세면 물집이 터질 수 있으므로 주의한다.</li>
+            <li>화상의 정도가 심하면 손상부위를 그대로 드러내거나 깨끗한 천으로 가볍게 덮은 뒤 병원으로 내원 한다.</li>
+        </ol>
+  </div> 
+  <script>
+    function toggleContent(id) {
+      var content = document.getElementById(id);
+      content.style.display = content.style.display === "none" ? "block" : "none";
+    }
+  </script>
+  <ads> 
+    <img id="index1" src="빨강_long.png" width="200" height="200" onclick="location.href='건강한나.html'"> 
+    <span id="tag1"> 제법 건강한 나 </span>
+</ads>
+  <p id="currentDate"></p>
+  <script src="getDate.js"></script>
+</body>
+</html>
