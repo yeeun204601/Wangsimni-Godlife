@@ -44,7 +44,6 @@
   }
   
   a {
-    /* 기존 CSS 속성 */
     display: inline-block;
     width: 300px;
     height: 180px;
@@ -146,4 +145,5 @@
     left: 74%;
     font-size: 36px;
   }
+  
   
