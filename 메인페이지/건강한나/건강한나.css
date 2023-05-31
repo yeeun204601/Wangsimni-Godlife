@@ -99,6 +99,13 @@ h1 {
   background-size: 160px;
 }
 
+#firstaid:hover {
+  background-image: url('붉은색.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px;
+}
+
 img#index {
   position: absolute;
   left: 85%;
