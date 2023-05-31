@@ -90,7 +90,7 @@ header .logo {
 }
 
 #맛집지도:hover {
-  background-image: url("형광펜/파란색하이라이트.png");
+  background-image: url("형광펜/보라색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 220px 60px;
@@ -98,7 +98,7 @@ header .logo {
 }
 
 #편의점지도:hover {
-  background-image: url("형광펜/보라색하이라이트.png");
+  background-image: url("형광펜/초록색하이라이트.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 220px 60px;

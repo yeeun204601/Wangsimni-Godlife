@@ -1,33 +1,33 @@
+#img1 {
+  width: 48%;
+  height: auto;
+  position: absolute;
+  right: 3%;
+  top: 13%;
+}
+
 #menu_title {
   position: absolute;
-  top: 63%;
+  top: 67%;
   left: 12%;
 }
 
 #menu {
   font-size: 1.8em;
   position: absolute;
-  top: 71%;
+  top: 76%;
   left: 12%;
 }
 
 #time_title {
   position: absolute;
-  top: 44%;
+  top: 46%;
   left: 12%;
 }
 
 #time {
   font-size: 1.8em;
   position: absolute;
-  top: 47%;
+  top: 50%;
   left: 12%;
-}
-
-#img1 {
-  width: 42%;
-  height: auto;
-  position: absolute;
-  right: 5.5%;
-  top: 21.5%;
 }

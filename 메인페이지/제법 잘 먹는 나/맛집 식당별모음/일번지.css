@@ -1,0 +1,21 @@
+/* 식당 사진 위치 */
+
+#img2 {
+  width: 400px;
+  height: auto;
+
+  position: absolute;
+  top: 12%;
+  right: 7%;
+}
+
+#img1 {
+  width: 500px;
+  height: auto;
+
+  position: absolute;
+  top: 33%;
+  right: 22%;
+
+  z-index: 1;
+}

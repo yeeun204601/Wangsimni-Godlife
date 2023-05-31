@@ -1,5 +1,4 @@
-const container = document.getElementById('drag-container');
-const items = container.querySelectorAll("li");
+const items = document.getElementsByClassName("conv");
 
 let activeItem = null;
 let currentX, currentY, initialX, initialY, xOffset = 0, yOffset = 0;

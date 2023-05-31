@@ -135,3 +135,12 @@ header .logo {
   padding: 0;
   margin: 0;
 }
+
+/* 날짜 js */
+p#jsdate {
+  font-family: GangwonEduSaeeum_OTFMediumA;
+  font-size: 40px;
+  position: absolute;
+  top: 40px;
+  right: 200px;
+}

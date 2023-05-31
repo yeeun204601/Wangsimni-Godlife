@@ -1,3 +1,11 @@
+#img1 {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  right: 5.5%;
+  top: 19%;
+}
+
 #menu_title {
   position: absolute;
   top: 64%;
@@ -9,13 +17,4 @@
   position: absolute;
   top: 73%;
   left: 12%;
-}
-
-#img1 {
-  width: 45%;
-  height: auto;
-
-  position: absolute;
-  right: 10%;
-  bottom: -12%;
 }

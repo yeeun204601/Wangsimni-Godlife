@@ -1,9 +1,7 @@
-/*일부 위치 조정*/
-/*식당 사진 위치*/
 #img1 {
   width: 45%;
   height: auto;
   position: absolute;
-  right: 15%;
+  right: 10%;
   top: 15%;
 }

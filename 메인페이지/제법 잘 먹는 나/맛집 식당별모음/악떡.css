@@ -10,3 +10,11 @@
   top: 73%;
   left: 12%;
 }
+
+#img1 {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  right: 5.5%;
+  top: 15.2%;
+}

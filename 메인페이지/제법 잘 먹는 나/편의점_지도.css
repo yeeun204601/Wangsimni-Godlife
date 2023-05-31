@@ -25,6 +25,14 @@ header {
   text-align: center;
 }
 
+header h1 {
+  background-image: url("형광펜/초록색하이라이트.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 220px 50px;
+  opacity: 0.9;
+}
+
 .logo {
   position: absolute;
   display: block;
@@ -233,4 +241,13 @@ img#tryclick_img {
 .loc:hover .poi {
   transform: scale(1.5);
   transition: 0.5s ease;
+}
+
+/* 날짜 js */
+p#jsdate {
+  font-family: GangwonEduSaeeum_OTFMediumA;
+  font-size: 40px;
+  position: absolute;
+  top: 40px;
+  right: 200px;
 }
