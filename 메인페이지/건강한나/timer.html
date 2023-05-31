@@ -18,17 +18,6 @@
       padding: 20px;
     }
 
-    /* header */
-    header .logo {
-      position:absolute;
-      display:block;
-      top:-1px;
-      width:100%;
-      left:50%;
-      padding:0;
-      margin: 0;
-    }
-
     h1 {
       position: absolute;
       top: 11%;
@@ -47,7 +36,7 @@
 
     #startButton {
       position: absolute;
-      top: 85%;
+      top: 88%;
       left: 40%;
       transform: translate(-50%, -50%);
       font-size: 24px;
@@ -56,7 +45,7 @@
 
     #pauseButton {
       position: absolute;
-      top: 85%;
+      top: 88%;
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 24px;
@@ -96,14 +85,25 @@
   left: 73%;
   font-size: 36px;
   }
+
+  img#index {
+  position: absolute;
+  left: 85%;
+  top: 20%;
+  cursor: pointer;
+}
+
+p#tag {
+  position: absolute;
+  left: 88%;
+  top: 23%;
+  font-size: 1.4em;
+  color: darkgrey;
+  font-style: italic;
+}
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo">
-        <a href="../mainpage.html"><img id="logo" src="../이미지/메인페이지_갓생_로고/004-remove.png" width="70" height="70" alt="갓생로고"></a>
-    </div>
-  </header>
   <h1>화이팅~</h1>
   <div id="timer">00:00:00</div>
   <button id="startButton">시작</button>
@@ -121,8 +121,13 @@
     <img src="plank2.png" alt="Image 6" id="image6">
   </div>
   <p id="currentDate"></p>
+  <ads> 
+    <img id="index" src="빨강_long.png" width="200" height="200" onclick="location.href='건강한나.html'"> 
+    <p id="tag"> 제법 건강한 나 </p>
+</ads>
   <script src="getDate.js"></script>
   <script src="homeTraining_timer.js"></script>
   <script src="image_animation.js"></script>
 </body>
 </html>
+
