@@ -57,16 +57,24 @@ img#postit {
   width: 30%;
   height: auto;
   position: absolute;
-  top: 30%;
+  top: 20%;
   right: 12%;
 }
 
+/*포스트잇 텍스트 효과*/
+
 #postit_text {
   position: absolute;
-  top: 45%;
+  top: 40%;
   right: 22%;
+  color: black;
 
   font-size: 2em;
+  text-align: center;
+}
+
+#postit_text:hover {
+  border-bottom: solid green;
 }
 
 /*포인터 클릭 문구*/
@@ -250,4 +258,25 @@ p#jsdate {
   position: absolute;
   top: 40px;
   right: 200px;
+}
+
+/*스티커*/
+#stk2 {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  right: 150px;
+  bottom: -10px;
+
+  transform: rotate(10deg);
+}
+
+#stk1 {
+  width: 280px;
+  height: auto;
+  position: absolute;
+  right: 250px;
+  bottom: -5%;
+
+  transform: rotate(-5deg);
 }

@@ -88,22 +88,46 @@ body {
 /* 버튼 */
 
 button {
-  width: 100px;
-  height: 50px;
+  width: auto;
+  height: auto;
+  border: none;
+  background-color: transparent;
+
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  font-size: 1.2em;
+  align-items: center;
 }
 
+button:hover {
+  background-color: rgb(217, 244, 217);
+  transition: 0.7s;
+}
 #but1 {
   display: block;
+
   position: absolute;
-  bottom: 10%;
+  bottom: 0%;
   right: 30%;
+  border-radius: 100px;
+}
+
+#but1 img {
+  width: 130px;
+  height: auto;
 }
 
 #but2 {
   display: block;
   position: absolute;
-  bottom: 10%;
-  right: 20%;
+  bottom: 0%;
+  right: 15%;
+  border-radius: 130px;
+  padding: 0 15px;
+}
+
+#but2 img {
+  width: 110px;
+  height: auto;
 }
 
 /* header */

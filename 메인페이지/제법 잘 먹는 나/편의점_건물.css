@@ -24,6 +24,16 @@ div#모아보기 {
   left: 12%;
 }
 
+/*편의점 밑줄 효과*/
+#모아보기 a {
+  color: black;
+  text-decoration: none;
+}
+
+#모아보기 a:hover {
+  border-bottom: solid green;
+}
+
 body {
   display: flex;
   flex-direction: row;

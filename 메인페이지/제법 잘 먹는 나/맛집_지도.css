@@ -95,12 +95,14 @@ ul#standard_elements {
   margin-bottom: 0%;
 }
 
-#allrest #hungry {
-  width: 150px;
+#allrest #stk1 {
+  width: 200px;
   height: auto;
   position: absolute;
-  left: 80%;
-  bottom: 10%;
+  right: -80px;
+  bottom: -20px;
+
+  transform: rotate(5deg);
 }
 
 /*인덱스 포스트잇*/
