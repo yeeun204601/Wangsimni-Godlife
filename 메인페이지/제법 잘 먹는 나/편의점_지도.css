@@ -110,6 +110,37 @@ img#tryclick_img {
   right: 0.9%;
 }
 
+#index2 {
+  height: 54px;
+  width: auto;
+
+  position: absolute;
+  top: 40%;
+  right: 0.8%;
+
+  z-index: 1;
+}
+#index3 {
+  height: 60px;
+  width: auto;
+
+  position: absolute;
+  top: 50%;
+  right: 1%;
+
+  z-index: 1;
+}
+
+#tag {
+  position: absolute;
+  top: 49%;
+  left: 87%;
+  opacity: 0.5;
+  font-weight: bold;
+  font-size: 1.5em;
+  z-index: 1;
+}
+
 /*포인터 크기 및 위치 설정*/
 .poi {
   width: 2%;

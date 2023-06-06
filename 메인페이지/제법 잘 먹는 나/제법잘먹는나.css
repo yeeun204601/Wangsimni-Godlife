@@ -112,6 +112,27 @@ header .logo {
   right: 0.9%;
 }
 
+#index2 {
+  height: 55px;
+  width: auto;
+
+  position: absolute;
+  top: 40%;
+  right: 0.7%;
+
+  z-index: 1;
+}
+#index3 {
+  height: 55px;
+  width: auto;
+
+  position: absolute;
+  top: 50%;
+  right: 0.9%;
+
+  z-index: 1;
+}
+
 #tag {
   position: absolute;
   top: 30.8%;
