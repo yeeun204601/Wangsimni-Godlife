@@ -108,13 +108,13 @@ header .logo {
 /*인덱스 포스트잇*/
 #index {
   position: absolute;
-  top: 20%;
-  right: -1%;
+  top: 30%;
+  right: 0.9%;
 }
 
 #tag {
   position: absolute;
-  top: 32%;
+  top: 30.8%;
   left: 87%;
   opacity: 0.5;
   font-weight: bold;
