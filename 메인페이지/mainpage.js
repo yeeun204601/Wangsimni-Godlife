@@ -10,7 +10,7 @@ document.getElementById("date1").innerHTML = dateString;
 
 /* 종강 d-day */
 let dDay = new Date("2023/06/21");
-let diff_days = Math.floor((dDay - today) / (1000 * 3600 * 24));
+let diff_days = Math.ceil((dDay - today) / (1000 * 3600 * 24));
 let dDayString = "종강 D-" + diff_days;
 
 document.getElementById("d-day1").innerHTML = dDayString;
