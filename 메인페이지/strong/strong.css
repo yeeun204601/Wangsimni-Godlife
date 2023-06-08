@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: url("메인페이지_배경이미지-배경제거ver.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+}
+
+header .logo {
+  position: absolute;
+  display: block;
+  top: -2%;
+  left: 47%;
+  z-index: 1;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin-left: -800px;
+  margin-top: -50px;
+}
+
+li {
+  display: block;
+  padding: 0px;
+}
+
+a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h1 {
+  background-image: url("민트색.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 50px;
+  opacity: 0.9;
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-size: 50px;
+  position: absolute;
+  top: 30px;
+  left: 175px;
+}
+
+.box {
+  position: relative;
+  width: 90%;
+}
+
+.box::before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+
+.content {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  bottom: 0;
+  left: 130px;
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-size: 60px;
+}
+
+#pharmacy:hover {
+  background-image: url("소라색.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 170px;
+}
+
+#GYM:hover {
+  background-image: url("핑크.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px;
+}
+
+#hometraining:hover {
+  background-image: url("옐로우.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px;
+}
+
+#firstaid:hover {
+  background-image: url("붉은색.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px;
+}
+
+img#index {
+  position: absolute;
+  left: 85%;
+  top: 20%;
+  cursor: pointer;
+}
+
+p#tag {
+  position: absolute;
+  left: 88%;
+  top: 23%;
+  font-size: 1.4em;
+  color: darkgrey;
+  font-style: italic;
+}
+
+#currentDate {
+  position: absolute;
+  top: 8%;
+  left: 75%;
+  font-size: 36px;
+}

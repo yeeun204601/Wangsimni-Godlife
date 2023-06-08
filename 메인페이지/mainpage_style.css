@@ -9,7 +9,7 @@
 
 /* 배경 이미지 */
 body {
-  background: url("이미지/메인페이지_노트배경이미지/메인페이지_배경이미지.png");
+  background: url("image/background/메인페이지_배경이미지.png");
   background-repeat: repeat-y;
   background-size: 100%;
   height: 230vh;
@@ -95,7 +95,7 @@ section .eat,
   font-size: 65px;
   letter-spacing: 1px;
   list-style-position: inside;
-  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿.png");
+  list-style-image: url("image/sticker/메인페이지_불릿.png");
   padding: 20px 20px 0 0;
 }
 .eat > li,
@@ -134,19 +134,19 @@ section .eat,
 
 /* 세부 페이지 불릿 이미지 변경*/
 .eat > #food_map {
-  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿2.png");
+  list-style-image: url("image/sticker/메인페이지_불릿2.png");
 }
 .eat > #conv_map {
-  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿3.png");
+  list-style-image: url("image/sticker/메인페이지_불릿3.png");
 }
 .smart > li {
-  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿4.png");
+  list-style-image: url("image/sticker/메인페이지_불릿4.png");
 }
 .strong > li {
-  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿6.png");
+  list-style-image: url("image/sticker/메인페이지_불릿6.png");
 }
 .play > li {
-  list-style-image: url("이미지/메인페이지_스티커/메인페이지_불릿5.png");
+  list-style-image: url("image/sticker/메인페이지_불릿5.png");
 }
 
 /* 스티커 위치 */
@@ -257,23 +257,19 @@ section ul a:link,
 }
 /* 목차 페이지 호버 효과 */
 section ul #eat:hover {
-  background: url("이미지/메인페이지_별_표시_물감하이라이트/004-remove.png")
-    no-repeat center top;
+  background: url("image/highlight_star/004-remove.png") no-repeat center top;
   background-size: 320px 60px;
 }
 section ul #smart:hover {
-  background: url("이미지/메인페이지_별_표시_물감하이라이트/005-remove.png")
-    no-repeat center top;
+  background: url("image/highlight_star/005-remove.png") no-repeat center top;
   background-size: 370px 60px;
 }
 section ul #strong:hover {
-  background: url("이미지/메인페이지_별_표시_물감하이라이트/008-remove.png")
-    no-repeat center top;
+  background: url("image/highlight_star/008-remove.png") no-repeat center top;
   background-size: 320px 60px;
 }
 section ul #play:hover {
-  background: url("이미지/메인페이지_별_표시_물감하이라이트/006-remove.png")
-    no-repeat center top;
+  background: url("image/highlight_star/006-remove.png") no-repeat center top;
   background-size: 320px 60px;
 }
 section ul #eat:hover > .eat,
